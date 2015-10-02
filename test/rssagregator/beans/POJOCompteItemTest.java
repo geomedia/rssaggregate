@@ -408,61 +408,61 @@ public class POJOCompteItemTest {
     /**
      * Test of detecterAnomalieNbrMinimalItem method, of class POJOCompteItem.
      */
-    @Test
-    public void testDetecterAnomalieNbrMinimalItem() {
-
-        POJOCompteItem instance = genererInstanceTest();
-        instance.setDate1(new DateTime(2013, 1, 1, 0, 1).toDate());
-        instance.setDate2(new DateTime(2013, 1, 6, 0, 1).toDate());
-
-
-        System.out.println("detecterAnomalieNbrMinimalItem-----");
- 
-        try {
-            instance.compte();
-        } catch (Exception ex) {
-            Logger.getLogger(POJOCompteItemTest.class.getName()).log(Level.SEVERE, null, ex);
-        }
-
-        Map<Date, Integer> result = instance.detecterAnomalieNbrMinimalItem(0, 50);
-        if (!result.isEmpty()) {
-            fail("On ne devait pas avoir de résultats");
-        }
-
-
-        result = instance.detecterAnomalieNbrMinimalItem(1, 3);
-        if (!result.isEmpty()) {
-            fail("On ne devait pas avoir de résultat il y en a " + result.size());
-        }
-
-
-        result = instance.detecterAnomalieNbrMinimalItem(1, 1);
-        if (result.isEmpty()) {
-            for (Map.Entry<Date, Integer> entry : result.entrySet()) {
-                Date date = entry.getKey();
-                Integer integer = entry.getValue();
-                System.out.println("Date " + date + " nbr : " + integer);
-
-            }
-            fail("il devait y avoir des résultats. On en a " + result.size());
-        }
-
-        Item it2 = new Item();
-        it2.setDateRecup(new DateTime(2013, 1, 16, 0, 1).toDate());
-
-        instance.getItems().add(it2);
-        instance.setDate2(new DateTime(2013, 1, 16, 0, 1).toDate());
-        try {
-            instance.compte();
-        } catch (Exception ex) {
-            Logger.getLogger(POJOCompteItemTest.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        result = instance.detecterAnomalieNbrMinimalItem(1, 4);
-        
-        System.out.println("NBR : " + result.size());
-        if(result.size() != 9){
-            fail("On revait avoir 12 résultats. on en a " + result.size());
-        }
-
-    }
+//    @Test
+//    public void testDetecterAnomalieNbrMinimalItem() {
+//
+//        POJOCompteItem instance = genererInstanceTest();
+//        instance.setDate1(new DateTime(2013, 1, 1, 0, 1).toDate());
+//        instance.setDate2(new DateTime(2013, 1, 6, 0, 1).toDate());
+//
+//
+//        System.out.println("detecterAnomalieNbrMinimalItem-----");
+// 
+//        try {
+//            instance.compte();
+//        } catch (Exception ex) {
+//            Logger.getLogger(POJOCompteItemTest.class.getName()).log(Level.SEVERE, null, ex);
+//        }
+//
+//        Map<Date, Integer> result = instance.detecterAnomalieNbrMinimalItem(0, 50);
+//        if (!result.isEmpty()) {
+//            fail("On ne devait pas avoir de résultats");
+//        }
+//
+//
+//        result = instance.detecterAnomalieNbrMinimalItem(1, 3);
+//        if (!result.isEmpty()) {
+//            fail("On ne devait pas avoir de résultat il y en a " + result.size());
+//        }
+//
+//
+//        result = instance.detecterAnomalieNbrMinimalItem(1, 1);
+//        if (result.isEmpty()) {
+//            for (Map.Entry<Date, Integer> entry : result.entrySet()) {
+//                Date date = entry.getKey();
+//                Integer integer = entry.getValue();
+//                System.out.println("Date " + date + " nbr : " + integer);
+//
+//            }
+//            fail("il devait y avoir des résultats. On en a " + result.size());
+//        }
+//
+//        Item it2 = new Item();
+//        it2.setDateRecup(new DateTime(2013, 1, 16, 0, 1).toDate());
+//
+//        instance.getItems().add(it2);
+//        instance.setDate2(new DateTime(2013, 1, 16, 0, 1).toDate());
+//        try {
+//            instance.compte();
+//        } catch (Exception ex) {
+//            Logger.getLogger(POJOCompteItemTest.class.getName()).log(Level.SEVERE, null, ex);
+//        }
+//        result = instance.detecterAnomalieNbrMinimalItem(1, 4);
+//        
+//        System.out.println("NBR : " + result.size());
+//        if(result.size() != 9){
+//            fail("On revait avoir 12 résultats. on en a " + result.size());
+//        }
+//
+//    }
 }

@@ -22,7 +22,6 @@ import rssagregator.dao.DaoFlux;
 import rssagregator.services.ServiceCollecteur;
 import rssagregator.services.ServiceMailNotifier;
 import rssagregator.services.ServiceServer;
-import rssagregator.services.ServiceSynchro;
 import rssagregator.servlet.StartServlet;
 import rssagregator.utils.ServiceXMLTool;
 
@@ -88,7 +87,6 @@ public class DemarrageTest {
 
         ServiceCollecteur.getInstance().lancerService();
         ServiceMailNotifier.getInstance().lancerService();
-        ServiceSynchro.getInstance().lancerService();
         ServiceServer.getInstance().lancerService();
         try {
             Thread.sleep(3000);

@@ -28,7 +28,6 @@ import rssagregator.dao.DAOFactory;
 import rssagregator.services.ServiceCollecteur;
 import rssagregator.services.ServiceMailNotifier;
 import rssagregator.services.ServiceServer;
-import rssagregator.services.ServiceSynchro;
 
 /**
  *
@@ -131,7 +130,6 @@ public class ColleteTest {
         ServiceCollecteur.getInstance().stopService();
         ServiceServer.getInstance().stopService();
         ServiceMailNotifier.getInstance().stopService();
-        ServiceSynchro.getInstance().stopService();
 
     }
     // TODO add test methods here.
