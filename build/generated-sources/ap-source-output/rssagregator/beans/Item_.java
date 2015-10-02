@@ -9,7 +9,7 @@ import javax.persistence.metamodel.StaticMetamodel;
 import rssagregator.beans.DoublonDe;
 import rssagregator.beans.Flux;
 
-@Generated(value="EclipseLink-2.5.0.v20130507-rNA", date="2014-03-25T09:53:38")
+@Generated(value="EclipseLink-2.5.0.v20130507-rNA", date="2015-10-02T15:09:46")
 @StaticMetamodel(Item.class)
 public class Item_ { 
 
