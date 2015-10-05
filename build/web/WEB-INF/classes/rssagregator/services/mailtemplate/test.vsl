@@ -1,5 +1,0 @@
-## Velocity Template.
-#foreach( $pet in $petList )
-    $pet.name for only $pet.price
-  #end
-
