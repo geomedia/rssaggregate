@@ -3,9 +3,9 @@
 SERVER=mygrid.huma-num.fr
 USER=geomedia
 SSH=$USER@$SERVER
-WEBAPPS=/sites/geomedia/resource/tomcat/test/webapps
-REMOTE_DIST=$WEBAPPS/RSSAgregate.war
-REMOTE_WEB=$WEBAPPS/RSSAgregate
+WEBAPPS="/sites/geomedia/resource/tomcat/test/webapps"
+REMOTE_DIST=$WEBAPPS/
+REMOTE_WEB=$WEBAPPS/RSSAgregate/
 
 echo "Pushing the application..."
 
@@ -34,7 +34,7 @@ echo "Installing configuration files... OK"
 echo "Pushing the application..."
 
 rsync -avzr $LOCAL_DIST $SSH:$REMOTE_DIST
-rsync -avzr $LOCAL_WEB $SSH:$REMOTE_WEB
+rsync -avzr $LOCAL_WEB/* $SSH:$REMOTE_WEB
 
 echo "Pushing the application... OK"
 
