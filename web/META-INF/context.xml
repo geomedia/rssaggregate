@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context antiJARLocking="true" path="/RSSAgregate">
+<Context antiJARLocking="true" path="/rssaggregate">
     
   <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="postgrebaserss" password="LGSw700S" type="javax.sql.DataSource" url="jdbc:postgresql://localhost/baserss" username="clem"/>
   <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="postgresqlClem" password="LGSw700S" type="javax.sql.DataSource" url="jdbc:postgresql://localhost/baserss" username="clem"/>
@@ -7,20 +7,13 @@
   <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="trucMySQL" password="LGSw700S" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/test?zeroDateTimeBehavior=convertToNull" username="root"/>
   
 
-        description="Définit ou trouver les fichier de conf" />-->
+        description="Définit ou trouver les fichier de conf" /&gt;--&gt;
   
-                <Environment name="confpath"
-        type="java.lang.String"
-
-        value="/var/lib/RSSAgregate/"
-        description="Définit ou trouver les fichier de conf" />
+                <Environment description="Définit ou trouver les fichier de conf" name="confpath" type="java.lang.String" value="/var/lib/RSSAgregate/"/>
  
 
       
-      <ResourceLink 
-                        name="testlink"
-                        global="testGlobal"
-                        type="java.lang.String" />
+      <ResourceLink global="testGlobal" name="testlink" type="java.lang.String"/>
       
           
 </Context>
