@@ -3,7 +3,7 @@
 SERVER=mygrid.huma-num.fr
 USER=geomedia
 SSH=$USER@$SERVER
-WEBAPPS="/sites/geomedia/resource/tomcat/test/webapps"
+WEBAPPS="/sites/geomedia/resource/tomcat/dev/webapps"
 REMOTE_DIST=$WEBAPPS/
 REMOTE_WEB=$WEBAPPS/RSSAgregate/
 
