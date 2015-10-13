@@ -33,7 +33,7 @@
                 <Environment name="confpath"
         type="java.lang.String"
 
-        value="/sites/geomedia/resource/RSSAgregate/"
+        value="/sites/geomedia/resource/config/dev/"
         description="Définit ou trouver les fichier de conf" />
 
 <!--  <ResourceLink 
