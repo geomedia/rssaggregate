@@ -20,8 +20,8 @@ LOCAL_WEB=$APP/build/web
 LOCAL_CONFIG=$APP/config/dev
 
 PERSISTENCE=$LOCAL_WEB/WEB-INF/classes/META-INF/persistence.xml
-LOG4J=$LOCAL_WEB/META-INF/context.xml
-CONTEXT=$LOCAL_WEB/WEB-INF/classes/log4j.properties
+CONTEXT=$LOCAL_WEB/META-INF/context.xml
+LOG4J=$LOCAL_WEB/WEB-INF/classes/log4j.properties
 
 echo "Installing configuration files..."
 
