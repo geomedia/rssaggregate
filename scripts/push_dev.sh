@@ -1,14 +1,5 @@
 #!/bin/bash
 
-SERVER=mygrid.huma-num.fr
-USER=geomedia
-SSH=$USER@$SERVER
-WEBAPPS="/sites/geomedia/resource/tomcat/dev/webapps"
-REMOTE_DIST=$WEBAPPS/
-REMOTE_WEB=$WEBAPPS/RSSAgregate/
-
-echo "Pushing the application..."
-
 cd ..
 
 APP=`pwd`
@@ -18,10 +9,14 @@ echo "Application local directory: $APP"
 LOCAL_DIST=$APP/dist/RSSAgregate.war
 LOCAL_WEB=$APP/build/web
 LOCAL_CONFIG=$APP/config/dev
+CONFIG_FILE=$APP/config/dev/configuration
 
 PERSISTENCE=$LOCAL_WEB/WEB-INF/classes/META-INF/persistence.xml
 CONTEXT=$LOCAL_WEB/META-INF/context.xml
 LOG4J=$LOCAL_WEB/WEB-INF/classes/log4j.properties
+
+source $CONFIG_FILE
+SSH=$USER@$SERVER
 
 echo "Installing configuration files..."
 
