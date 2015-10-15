@@ -13,16 +13,18 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/upload/newhtml.html</file>
-            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/rssagregator/beans/traitement/RequesterTest.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/testgeneraux/DemarrageTest.java</file>
-            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/journalJs.js</file>
+            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/rssagregator/beans/traitement/RequesterTest.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/ress/jqgrid/css/ui.jqgrid.css</file>
+            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/journalJs.js</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/build.xml</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/ress/jqgrid/src/css/ui.jqgrid.css</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/aide.jsp</file>
+            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/rssagregator/servlet/StartServletTest.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/README.md</file>
-            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/AjaxFluxDyn.js</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/testgeneraux/ColleteTest.java</file>
+            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/AjaxFluxDyn.js</file>
+            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/build/generated-sources/ap-source-output/rssagregator/beans/incident/AnomalieCollecte_.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/src/java/rssagregator/beans/DoublonDe.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/WEB-INF/test.html</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/erreurHTML.jsp</file>
@@ -30,29 +32,27 @@
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/rssagregator/beans/traitement/RomeParseTest.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/src/java/org/eclipse/persistence/logging/CommonsLoggingSessionLog.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/rssagregator/utils/ServletToolTest.java</file>
+            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/src/java/rssagregator/servlet/recupParamList/FluxList.java</file>
+            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/rssagregator/beans/FluxPeriodeCaptationTest.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/src/java/rssagregator/beans/Item.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/WEB-INF/userHTML.jsp</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/LICENSE</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/WEB-INF/identification.jsp</file>
+            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/rssagregator/beans/form/ItemFormTest.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/WEB-INF/index.jsp</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/newhtml.html</file>
-            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/rssagregator/beans/form/ItemFormTest.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/jqPagination/LICENSE</file>
+            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/src/java/rssagregator/beans/ClemBeanUtils.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/src/java/rssagregator/beans/traitement/Requester.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/src/java/rssagregator/beans/Flux.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/rssagregator/beans/traitement/MediatorCollecteActionTest.java</file>
+            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/nbproject/build-impl.xml</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/src/java/rssagregator/beans/traitement/AbstrDedoublonneur.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/rssagregator/beans/POJOCompteItemTest.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/src/java/rssagregator/beans/traitement/AbstrParseur.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/src/java/rssagregator/Test.java</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/changePass.js</file>
             <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/web/newhtml1.html</file>
-            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/rssagregator/beans/FluxPeriodeCaptationTest.java</file>
-            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/nbproject/build-impl.xml</file>
-            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/test/rssagregator/servlet/StartServletTest.java</file>
-            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/build/generated-sources/ap-source-output/rssagregator/beans/incident/AnomalieCollecte_.java</file>
-            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/src/java/rssagregator/beans/ClemBeanUtils.java</file>
-            <file>file:/home/dosimont/Documents/git/github/geomedia/rssaggregate/src/java/rssagregator/servlet/recupParamList/FluxList.java</file>
         </group>
     </open-files>
 </project-private>
