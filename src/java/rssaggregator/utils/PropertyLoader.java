@@ -50,9 +50,9 @@ public class PropertyLoader {
     /**
      * *
      * Charge un fichier properties depuis un emplacement sur le disque dur (exemple :
-     * /var/lib/RSSAgregate/conf.properties)
+     * /var/lib/rssaggregate/conf.properties)
      *
-     * @param filename : ler path et nom de fichier exemple "/var/lib/RSSAgregate/conf.properties"
+     * @param filename : ler path et nom de fichier exemple "/var/lib/rssaggregate/conf.properties"
      * @return L'objet properties ou null si il n'a pas été trouvé"
      * @throws FileNotFoundException
      * @throws IOException
@@ -149,17 +149,17 @@ public class PropertyLoader {
 
         } catch (NamingException e) {
             logger2.error("!!Impossible de trouver la ressource dans le context" + var, e);
-               return "/var/lib/RSSAgregate/";
+               return "/var/lib/rssaggregate/";
         } catch (RessourceIntrouvable e) {
             logger2.error("!!Impossible de trouver la ressource dans le context" + var, e);
-            return "/var/lib/RSSAgregate/";
+            return "/var/lib/rssaggregate/";
         }
 //        return null;
     }
     
     /***
      * Retoune le répertoire contenant les fichiers de conf ainsi que les log... en dehors du class path de l'application. Un point unique pour trouver cette ressource. 
-     * @return string exemple /var/lib/RSSAgregate
+     * @return string exemple /var/lib/rssaggregate
      */
     public static String returnConfPath(){
         
@@ -181,7 +181,7 @@ public class PropertyLoader {
 
         pp.setProperty("name", "Bobizz");
         try {
-            OutputStreamWriter osw = new FileWriter("/var/lib/RSSAgregate/conf.properties");
+            OutputStreamWriter osw = new FileWriter("/var/lib/rssaggregate/conf.properties");
 
             pp.store(osw, null);
         } catch (IOException ex) {
@@ -191,7 +191,7 @@ public class PropertyLoader {
         Properties p = new Properties();
         FileInputStream fis;
         try {
-            fis = new FileInputStream("/var/lib/RSSAgregate/conf.properties");
+            fis = new FileInputStream("/var/lib/rssaggregate/conf.properties");
             p.load(fis);
 
         } catch (FileNotFoundException ex) {

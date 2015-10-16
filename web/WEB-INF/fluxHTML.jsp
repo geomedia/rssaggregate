@@ -143,7 +143,7 @@ Cette JSP est utilisée pour afficher les informations relatives aux flux a l'ut
                                     id = rowObjcet['ID'];
                                     texteLien = rowObjcet['nom'];
                                 }
-                                return '<a href = "/RSSAgregate/flux/read?id=' + id + '">' + texteLien + '</a>';
+                                return '<a href = "/rssaggregate/flux/read?id=' + id + '">' + texteLien + '</a>';
                             }
 
                             $(function() {
@@ -408,7 +408,7 @@ Cette JSP est utilisée pour afficher les informations relatives aux flux a l'ut
 
                         <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
                         <!--                        <script>
-                                                    $.getJSON('http://localhost:8080/RSSAgregate/flux?vue=highchart', function(essence) {
+                                                    $.getJSON('http://localhost:8080/rssaggregate/flux?vue=highchart', function(essence) {
                                                     $('#container').highcharts(essence);
                                                     });
                         

@@ -9,7 +9,7 @@
 
         description="Définit ou trouver les fichier de conf" /&gt;--&gt;
   
-                <Environment description="Définit ou trouver les fichier de conf" name="confpath" type="java.lang.String" value="/var/lib/RSSAgregate/"/>
+                <Environment description="Définit ou trouver les fichier de conf" name="confpath" type="java.lang.String" value="/var/lib/rssaggregate/"/>
  
 
       

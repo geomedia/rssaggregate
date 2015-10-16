@@ -188,7 +188,7 @@ function myLinkFormatter(cellvalue, options, rowObjcet, l4, l5) {
     }
     texteLien = cellvalue;
 //    typeIncid = rowObjcet[2];
-    return '<a href = "/RSSAgregate/incidents/read?id=' + id + "&type=" + type + "\">" + texteLien + '</a>';
+    return '<a href = "/rssaggregate/incidents/read?id=' + id + "&type=" + type + "\">" + texteLien + '</a>';
 }
 
 function dateFormatter(cellvalue, options, rowObjcet, l4, l5) {
@@ -208,7 +208,7 @@ function dateFormatter(cellvalue, options, rowObjcet, l4, l5) {
 //        id = rowObjcet['ID'];
 //        texteLien = rowObjcet['nom'];
 //    }
-//    return '<a href = "/RSSAgregate/flux/read?id=' + id + '">' + texteLien + '</a>';
+//    return '<a href = "/rssaggregate/flux/read?id=' + id + '">' + texteLien + '</a>';
 //}
 
 
@@ -217,7 +217,7 @@ function dateFormatter(cellvalue, options, rowObjcet, l4, l5) {
 ////        alert("1" + rowObjcet[1])
 ////        alert("2"+ rowObjcet[2])
 //
-//    return '<a href = "/RSSAgregate/incidents/read?id=' + rowObjcet[0] + "&type=" + rowObjcet[2] + '">' + rowObjcet[1] + '</a>';
+//    return '<a href = "/rssaggregate/incidents/read?id=' + rowObjcet[0] + "&type=" + rowObjcet[2] + '">' + rowObjcet[1] + '</a>';
 //}
 
 

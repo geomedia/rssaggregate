@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
-  <!--    <persistence-unit name="RSSAgregatePU" transaction-type="RESOURCE_LOCAL">
+  <!--    <persistence-unit name="rssaggregatePU" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <properties>
@@ -11,7 +11,7 @@
             <property name="eclipselink.ddl-generation" value="none"/>
         </properties>
     </persistence-unit>-->
-  <persistence-unit name="RSSAgregatePU2" transaction-type="RESOURCE_LOCAL">
+  <persistence-unit name="rssaggregatePU2" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <!--<non-jta-data-source>postconf</non-jta-data-source>-->
     <!--<non-jta-data-source/>-->
@@ -63,7 +63,7 @@
       <!--==============================================================================================================-->
     </properties>
   </persistence-unit>
-  <!--    <persistence-unit name="RSSAgregatePU3" transaction-type="RESOURCE_LOCAL">
+  <!--    <persistence-unit name="rssaggregatePU3" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <properties>
@@ -75,7 +75,7 @@
         </properties>
     </persistence-unit>-->
   <!--Cette seconde Persistance Unite est dédié au test-->
-  <!--    <persistence-unit name="RSSAgregatePUTest" transaction-type="RESOURCE_LOCAL">
+  <!--    <persistence-unit name="rssaggregatePUTest" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <non-jta-data-source>postconf</non-jta-data-source>
         <non-jta-data-source/>

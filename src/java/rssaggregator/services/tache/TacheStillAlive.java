@@ -15,7 +15,7 @@ import rssagregator.services.crud.ServiceCRUDFactory;
 import rssagregator.utils.PropertyLoader;
 
 /**
- * Cette tache écrit dans un fichier de log propre /var/lib/RSSAgregate/log/stillalive. Ce fichier permet de vérifier
+ * Cette tache écrit dans un fichier de log propre /var/lib/rssaggregate/log/stillalive. Ce fichier permet de vérifier
  * qu'il n'y a pas de coupure sur le service. La tâche est gérée par le service {@link ServiceServer}. Elle génère des
  * incident de type {@link AliveIncident} 
  *

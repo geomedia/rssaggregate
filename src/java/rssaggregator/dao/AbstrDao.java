@@ -53,7 +53,7 @@ public abstract class AbstrDao<T> {
      * *
      * La persistence Unit définie dans la config d'Eclipse link. Voir le fichier persistence.xml
      */
-    protected String PERSISTENCE_UNIT_NAME = "RSSAgregatePU2";
+    protected String PERSISTENCE_UNIT_NAME = "rssaggregatePU2";
     /**
      * *
      * Instance de la daofactory.

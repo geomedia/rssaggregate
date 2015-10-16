@@ -6,7 +6,7 @@ APP=`pwd`
 
 echo "Application local directory: $APP"
 
-LOCAL_DIST=$APP/dist/RSSAgregate.war
+LOCAL_DIST=$APP/dist/rssaggregate.war
 LOCAL_WEB=$APP/build/web
 LOCAL_CONFIG=$APP/config/$1
 CONFIG_FILE=$LOCAL_CONFIG/configuration

@@ -40,7 +40,7 @@ public class DAOFactory<T extends AbstrDao> {
      * *
      * Le nom de la persistence unit voir dans persistance.xml
      */
-    public static String PERSISTENCE_UNIT_NAME = "RSSAgregatePU2";
+    public static String PERSISTENCE_UNIT_NAME = "rssaggregatePU2";
 //    private static DAOFactory instance = new DAOFactory();
     /**
      * *

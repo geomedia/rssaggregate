@@ -31,7 +31,7 @@ import rssagregator.dao.DAOFactory;
 @Deprecated
 public class ClemBeanUtils {
 
-    protected static String PERSISTENCE_UNIT_NAME = "RSSAgregatePU2";
+    protected static String PERSISTENCE_UNIT_NAME = "rssaggregatePU2";
 
     /**
      * *

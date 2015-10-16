@@ -82,7 +82,7 @@
                              * @returns {String}
                              */
                             function myLinkFormatter(cellvalue, options, rowObjcet, l4, l5) {
-                                return '<a href = "/RSSAgregate/journaux/read?id=' + rowObjcet[0] + '">' + rowObjcet[1] + '</a>';
+                                return '<a href = "/rssaggregate/journaux/read?id=' + rowObjcet[0] + '">' + rowObjcet[1] + '</a>';
                             }
 
                             $(function() {

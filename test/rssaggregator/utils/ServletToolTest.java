@@ -210,7 +210,7 @@ public class ServletToolTest {
         ServletRunner sr = new ServletRunner();
         sr.registerServlet("myServlet", FluxSrvl.class.getName());
         ServletUnitClient sc = sr.newClient();
-        WebRequest request = new PostMethodWebRequest("http://localhost//RSSAgregate/flux/maj?id=2,3");
+        WebRequest request = new PostMethodWebRequest("http://localhost//rssaggregate/flux/maj?id=2,3");
         request.setParameter("nom", "Le monde");
         InvocationContext ic = sc.newInvocation(request);
         HttpServletRequest req = ic.getRequest();
@@ -229,7 +229,7 @@ public class ServletToolTest {
 
 
         //------------Form id=1,id=2
-         request = new PostMethodWebRequest("http://localhost//RSSAgregate/flux/maj?id=2,3");
+         request = new PostMethodWebRequest("http://localhost//rssaggregate/flux/maj?id=2,3");
         request.setParameter("nom", "Le monde");
         ic = sc.newInvocation(request);
         req = ic.getRequest();
@@ -238,7 +238,7 @@ public class ServletToolTest {
         
         
         //Forme id=1
-        request = new PostMethodWebRequest("http://localhost//RSSAgregate/flux/maj?id=1");
+        request = new PostMethodWebRequest("http://localhost//rssaggregate/flux/maj?id=1");
         ic = sc.newInvocation(request);
         req = ic.getRequest();
         expResult = new ArrayList();
@@ -247,7 +247,7 @@ public class ServletToolTest {
         
         
         //En cas de null
-        request = new PostMethodWebRequest("http://localhost//RSSAgregate/flux/maj");
+        request = new PostMethodWebRequest("http://localhost//rssaggregate/flux/maj");
         ic = sc.newInvocation(request);
         req = ic.getRequest();
         expResult = new ArrayList();

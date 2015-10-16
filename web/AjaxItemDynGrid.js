@@ -23,7 +23,7 @@
  * @returns {String}
  */
 function myLinkFormatter(cellvalue, options, rowObjcet, l4, l5) {
-    return '<a href = "/RSSAgregate/item/read?id=' + rowObjcet[0] + '">' + rowObjcet[1] + '</a>';
+    return '<a href = "/rssaggregate/item/read?id=' + rowObjcet[0] + '">' + rowObjcet[1] + '</a>';
 }
 
 
@@ -108,7 +108,7 @@ $(document).ready(function() {
         id = $('#donneeBrutes').val();
 
         $.ajax({
-            url: "/RSSAgregate/item/donneesbrutes", // le nom du fichier indiqué dans le formulaire
+            url: "/rssaggregate/item/donneesbrutes", // le nom du fichier indiqué dans le formulaire
             type: "POST", // la méthode indiquée dans le formulaire (get ou post)
             data: 'id=' + id, // je sérialise les données (voir plus loin), ici les $_POST
             dataType: 'json',
