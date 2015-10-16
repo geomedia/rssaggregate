@@ -26,16 +26,16 @@
        #set( $vide = true )
 
             #foreach( $incid in $incidents )
-                #if( $s.getClass().forName("rssagregator.beans.incident.Notification").isAssignableFrom($incid.getClass()))
+                #if( $s.getClass().forName("rssaggregator.beans.incident.Notification").isAssignableFrom($incid.getClass()))
                         <li>
 
                     <h3>-- $incid.toString()</h3>
-                    #if( $s.getClass().forName("rssagregator.beans.incident.CollecteIncident").isAssignableFrom($incid.getClass()))
+                    #if( $s.getClass().forName("rssaggregator.beans.incident.CollecteIncident").isAssignableFrom($incid.getClass()))
                     <p><strong>Flux : </strong><a href="$incid.getFluxLie().getReadURL()"> $incid.getFluxLie()</p>
                     #end
 
                     ##Affichage des Anomalies de collecte
-                     #if( $s.getClass().forName("rssagregator.beans.incident.AnomalieCollecte").isAssignableFrom($incid.getClass()))
+                     #if( $s.getClass().forName("rssaggregator.beans.incident.AnomalieCollecte").isAssignableFrom($incid.getClass()))
                         <p>Jour : $dateTool.format('full_date', $incid.dateDebut) </p>
                         <p>Nombre d'item pour ce jour : $incid.nombreCaptureConstate</p>
                         <p>Moyenne des item collecté pendant la période de capture : $incid.moyenneDesCapture</p>
@@ -76,10 +76,10 @@
         <ul>
         #set( $vide = true )
         #foreach( $incid in $incidents )
-            #if( !$s.getClass().forName("rssagregator.beans.incident.Notification").isAssignableFrom($incid.getClass()))
+            #if( !$s.getClass().forName("rssaggregator.beans.incident.Notification").isAssignableFrom($incid.getClass()))
                 <li>
                     <h3 title="$incid.incidDesc()">$incid.toString()</h3>
-                        #if( $s.getClass().forName("rssagregator.beans.incident.CollecteIncident").isAssignableFrom($incid.getClass()))
+                        #if( $s.getClass().forName("rssaggregator.beans.incident.CollecteIncident").isAssignableFrom($incid.getClass()))
                                <p><strong>Flux : </strong> $incid.getFluxLie()</p>
                         #end
                         <p><strong>Erreur : </strong> $incid.getMessageEreur()</p>

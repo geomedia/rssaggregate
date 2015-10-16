@@ -2,30 +2,30 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.dao;
+package rssaggregator.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import rssagregator.beans.Conf;
-import rssagregator.beans.Flux;
-import rssagregator.beans.FluxType;
-import rssagregator.beans.Item;
-import rssagregator.beans.Journal;
-import rssagregator.beans.UserAccount;
-import rssagregator.beans.incident.AbstrIncident;
-import rssagregator.beans.incident.AliveIncident;
-import rssagregator.beans.incident.AnomalieCollecte;
-import rssagregator.beans.incident.CollecteIncident;
-import rssagregator.beans.incident.Incidable;
-import rssagregator.beans.incident.IncidentDecouverteRSS;
-import rssagregator.beans.incident.IncidentFactory;
-import rssagregator.beans.incident.NotificationAjoutFlux;
-import rssagregator.beans.incident.RecupIncident;
-import rssagregator.beans.incident.ServerIncident;
-import rssagregator.beans.traitement.ComportementCollecte;
-import rssagregator.services.tache.AbstrTache;
-import rssagregator.servlet.StartServlet;
+import rssaggregator.beans.Conf;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.FluxType;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.Journal;
+import rssaggregator.beans.UserAccount;
+import rssaggregator.beans.incident.AbstrIncident;
+import rssaggregator.beans.incident.AliveIncident;
+import rssaggregator.beans.incident.AnomalieCollecte;
+import rssaggregator.beans.incident.CollecteIncident;
+import rssaggregator.beans.incident.Incidable;
+import rssaggregator.beans.incident.IncidentDecouverteRSS;
+import rssaggregator.beans.incident.IncidentFactory;
+import rssaggregator.beans.incident.NotificationAjoutFlux;
+import rssaggregator.beans.incident.RecupIncident;
+import rssaggregator.beans.incident.ServerIncident;
+import rssaggregator.beans.traitement.ComportementCollecte;
+import rssaggregator.services.tache.AbstrTache;
+import rssaggregator.servlet.StartServlet;
 
 /**
  * La factory permettant de générer des DAO ainsi que des EntytiManager ainsi que de gérer l'EntityManagerFactory et

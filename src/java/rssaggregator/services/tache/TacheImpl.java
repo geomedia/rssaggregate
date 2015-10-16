@@ -2,17 +2,17 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import javax.persistence.LockModeType;
 import org.apache.log4j.Priority;
 import org.eclipse.persistence.exceptions.EntityManagerSetupException;
-import rssagregator.beans.incident.Incidable;
-import rssagregator.dao.DAOFactory;
-import rssagregator.services.SemaphoreCentre;
-import rssagregator.utils.ThreadUtils;
+import rssaggregator.beans.incident.Incidable;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.services.SemaphoreCentre;
+import rssaggregator.utils.ThreadUtils;
 
 /**
  *

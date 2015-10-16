@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.utils.comparator;
+package rssaggregator.utils.comparator;
 
 import java.util.Comparator;
-import rssagregator.beans.Bean;
+import rssaggregator.beans.Bean;
 
 /**
  * Permet de comparer des been en fonction de leur ID. Pratique pour trier une liste d'item ou de flux en fonction de

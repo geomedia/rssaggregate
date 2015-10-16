@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -24,8 +24,8 @@ import org.joda.time.DateTime;
 import org.joda.time.Duration;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
-import rssagregator.beans.exception.AucunMailAdministateur;
-import rssagregator.utils.ExceptionTool;
+import rssaggregator.beans.exception.AucunMailAdministateur;
+import rssaggregator.utils.ExceptionTool;
 
 /**
  * Ce callable permet d'envoyer un mail. La tâche est effectué à l'intérieur d'une thread car on ne peut savoir combien

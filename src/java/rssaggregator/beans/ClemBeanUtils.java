@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans;
+package rssaggregator.beans;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -16,8 +16,8 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.servlet.http.HttpServletRequest;
-import rssagregator.beans.form.AbstrForm;
-import rssagregator.dao.DAOFactory;
+import rssaggregator.beans.form.AbstrForm;
+import rssaggregator.dao.DAOFactory;
 
 /**
  * <p>CETTE CLASSE N'EST PLUS UTILISÉE</p>

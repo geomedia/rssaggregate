@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.utils;
+package rssaggregator.utils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -21,7 +21,7 @@ import java.util.logging.Logger;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
-import rssagregator.beans.exception.RessourceIntrouvable;
+import rssaggregator.beans.exception.RessourceIntrouvable;
 
 /**
  * Une classe posédant des méthode static dédiée au maniement de fichiers properties.

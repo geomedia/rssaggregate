@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -14,9 +14,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
-import rssagregator.beans.UserAccount;
-import rssagregator.dao.DAOFactory;
-import rssagregator.utils.PropertyLoader;
+import rssaggregator.beans.UserAccount;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.utils.PropertyLoader;
 import javax.mail.Message;
 
 /**

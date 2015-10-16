@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.dao;
+package rssaggregator.dao;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -13,10 +13,10 @@ import java.util.Map;
 import java.util.Set;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
-import rssagregator.services.ServiceCollecteur;
-import rssagregator.utils.ThreadUtils;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
+import rssaggregator.services.ServiceCollecteur;
+import rssaggregator.utils.ThreadUtils;
 
 /**
  * Un singleton permettant de concerver les hash des flux. Il est utilisé par le dédoublonneur

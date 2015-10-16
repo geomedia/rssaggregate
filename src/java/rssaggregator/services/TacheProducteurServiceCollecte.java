@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
 import java.util.Iterator;
 import java.util.List;
@@ -11,11 +11,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
-import rssagregator.beans.Flux;
-import rssagregator.beans.exception.IncompleteBeanExeption;
-import rssagregator.dao.DAOFactory;
-import rssagregator.services.tache.AbstrTache;
-import rssagregator.services.tache.TacheRecupCallable;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.exception.IncompleteBeanExeption;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.services.tache.AbstrTache;
+import rssaggregator.services.tache.TacheRecupCallable;
 
 /**
  *

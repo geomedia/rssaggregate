@@ -2,15 +2,15 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import javax.persistence.Query;
-import rssagregator.beans.Flux;
-import rssagregator.dao.DAOFactory;
-import rssagregator.services.ServiceCollecteur;
+import rssaggregator.beans.Flux;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.services.ServiceCollecteur;
 
 /**
  * Tache Lancant le calcul de qualité des flux pour tous les fluxs. Lancement 1 à 1 dans un SingleThreadExecutor

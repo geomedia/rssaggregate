@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.crud;
+package rssaggregator.services.crud;
 
 import java.util.Date;
 import java.util.HashSet;
@@ -11,16 +11,16 @@ import java.util.List;
 import java.util.Set;
 import javax.persistence.EntityManager;
 import javax.persistence.LockModeType;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
-import rssagregator.beans.incident.NotificationAjoutFlux;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOIncident;
-import rssagregator.dao.DaoFlux;
-import rssagregator.dao.DaoItem;
-import rssagregator.services.ServiceCollecteur;
-import rssagregator.services.tache.TacheFactory;
-import rssagregator.services.tache.TacheRecupCallable;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.incident.NotificationAjoutFlux;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOIncident;
+import rssaggregator.dao.DaoFlux;
+import rssaggregator.dao.DaoItem;
+import rssaggregator.services.ServiceCollecteur;
+import rssaggregator.services.tache.TacheFactory;
+import rssaggregator.services.tache.TacheRecupCallable;
 
 /**
  * Le service permettant de gérer les opération CRUD sur un flux. La suppression des flux demande une procédure

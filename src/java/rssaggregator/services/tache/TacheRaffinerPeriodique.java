@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import java.util.List;
 import javax.persistence.Query;
-import rssagregator.beans.Item;
-import rssagregator.dao.DAOFactory;
-import rssagregator.services.ServiceCollecteur;
+import rssaggregator.beans.Item;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.services.ServiceCollecteur;
 
 /**
  * Cette tache a pour mission de raffiner les items ne possédant pas encore de liaison vers une item raffinée.

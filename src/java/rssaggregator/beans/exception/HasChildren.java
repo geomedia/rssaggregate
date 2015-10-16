@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.exception;
+package rssaggregator.beans.exception;
 
-import rssagregator.beans.Flux;
-import rssagregator.beans.traitement.ComportementCollecte;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.traitement.ComportementCollecte;
 
 /**
  * Exception a levée si on tente de supprimer un entité possédant des liens ne pouvant être laissé orphelin (exemple

@@ -15,4 +15,4 @@
  * </p>
  * <p>Tous les formulaire héritent de AbstrForm VOIR LA DOC DE CETTE CLASSE POUR UNE DESCRIPTION DETAILLE DE L'USAGE DES FORMULAIRES</p>
  */
-package rssagregator.beans.form;
+package rssaggregator.beans.form;

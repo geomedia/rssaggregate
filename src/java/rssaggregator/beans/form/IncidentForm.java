@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.form;
+package rssaggregator.beans.form;
 
 import java.util.Date;
 import javax.servlet.http.HttpServletRequest;
-import rssagregator.beans.incident.AbstrIncident;
-import rssagregator.dao.AbstrDao;
+import rssaggregator.beans.incident.AbstrIncident;
+import rssaggregator.dao.AbstrDao;
 
 /**
  * Le formulaire permettant de valider et binder des donnée tirées de la requête dans un beans <strong>

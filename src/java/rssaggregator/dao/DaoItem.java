@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.dao;
+package rssaggregator.dao;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,13 +22,13 @@ import javax.persistence.criteria.Root;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
-import rssagregator.beans.Flux;
-import rssagregator.beans.FluxPeriodeCaptation;
-import rssagregator.beans.Item;
-import rssagregator.beans.Journal;
-import rssagregator.beans.exception.ArgumentIncorrect;
-import rssagregator.beans.exception.IncompleteBeanExeption;
-import rssagregator.utils.ExceptionTool;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.FluxPeriodeCaptation;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.Journal;
+import rssaggregator.beans.exception.ArgumentIncorrect;
+import rssaggregator.beans.exception.IncompleteBeanExeption;
+import rssaggregator.utils.ExceptionTool;
 
 /**
  * La DAO permettabt d'échanger des items avec la base de données SQL.

@@ -6,4 +6,4 @@
  * ou VisitorCollecteActionCSV qui permet d'effectuer la même action de collecte en utilisant pour source un fichiers
  * CSV.</p>
  */
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;

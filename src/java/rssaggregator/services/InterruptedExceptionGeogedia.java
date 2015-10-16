@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
-import rssagregator.services.tache.AbstrTache;
+import rssaggregator.services.tache.AbstrTache;
 
 /**
  * Une execption propre au projet géomédia. Lorsqu'un Callable est interrompu, il doit emmettre ce type d'exception

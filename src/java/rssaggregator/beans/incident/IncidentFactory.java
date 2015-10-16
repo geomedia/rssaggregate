@@ -2,18 +2,18 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.incident;
+package rssaggregator.beans.incident;
 
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import rssagregator.beans.exception.CollecteUnactiveFlux;
-import rssagregator.beans.exception.UnIncidableException;
-import rssagregator.services.tache.AbstrTache;
-import rssagregator.utils.ExceptionTool;
+import rssaggregator.beans.exception.CollecteUnactiveFlux;
+import rssaggregator.beans.exception.UnIncidableException;
+import rssaggregator.services.tache.AbstrTache;
+import rssaggregator.utils.ExceptionTool;
 
 /**
- * Permet de créer un incident. Il est possible de générer un incident à partir d'une tache {@link #createIncidentFromTask(rssagregator.services.tache.AbstrTache, java.lang.String)
+ * Permet de créer un incident. Il est possible de générer un incident à partir d'une tache {@link #createIncidentFromTask(rssaggregator.services.tache.AbstrTache, java.lang.String)
  * } ou en spécifiant directement le type d'incident que l'on souhaite créer {@link #getIncident(java.lang.Class, java.lang.String, java.lang.Throwable)
  * }
  *

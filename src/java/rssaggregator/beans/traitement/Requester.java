@@ -1,4 +1,4 @@
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

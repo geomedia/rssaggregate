@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans;
+package rssaggregator.beans;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.joda.time.DateTime;
-import rssagregator.services.tache.TacheStillAlive;
+import rssaggregator.services.tache.TacheStillAlive;
 
 /**
  * Ce Pojo est un simple objet possedant une liste de tableau à deux dates, il est utilisé par la tâche

@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.servlet;
+package rssaggregator.servlet;
 
 import java.io.IOException;
 import java.util.List;
@@ -11,10 +11,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import rssagregator.beans.FluxType;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOGenerique;
-import rssagregator.utils.ServletTool;
+import rssaggregator.beans.FluxType;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOGenerique;
+import rssaggregator.utils.ServletTool;
 
 /**
  * Servlet permettant d'intéragir avec les type de flux. Elle utilise une dao

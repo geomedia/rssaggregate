@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.utils;
+package rssaggregator.utils;
 import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Collections;

@@ -6,4 +6,4 @@
  * Afin de faciliter la gestion future du système de nombreux incidents ont été retirés. L'objectif est au final de na
  * pas submerger l'administrateur d'information qu'il ne sait pas gérer...
  */
-package rssagregator.beans.incident;
+package rssaggregator.beans.incident;

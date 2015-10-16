@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.form;
+package rssaggregator.beans.form;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
@@ -22,13 +22,13 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import rssagregator.beans.Item;
-import rssagregator.dao.AbstrDao;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.SearchFilter;
-import rssagregator.dao.SearchFiltersList;
-import rssagregator.servlet.JournauxSrvl;
-import rssagregator.utils.ServletTool;
+import rssaggregator.beans.Item;
+import rssaggregator.dao.AbstrDao;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.SearchFilter;
+import rssaggregator.dao.SearchFiltersList;
+import rssaggregator.servlet.JournauxSrvl;
+import rssaggregator.utils.ServletTool;
 
 /**
  * <p>
@@ -48,7 +48,7 @@ import rssagregator.utils.ServletTool;
  * </ul>
  *
  * <p>Les formulaires permettent aussi d'interpréter des requetes de list générée par Jqgrid. Il faut utiliser la
- * méthode {@link #parseListeRequete(javax.servlet.http.HttpServletRequest, rssagregator.dao.AbstrDao)} qui parcours la
+ * méthode {@link #parseListeRequete(javax.servlet.http.HttpServletRequest, rssaggregator.dao.AbstrDao)} qui parcours la
  * requête afin de générer un objet de type {@link SearchFiltersList} qui peut être utilisé par les dao pour lister des
  * beans en s'appuyant sur la base de données en s'appuyant sur l'api Criteria.</p>
  *
@@ -105,7 +105,7 @@ public abstract class AbstrForm {
     /**
      * *
      * Lorqu'on cherche à récupérer les paramettres lors d'une action list en utilisant la méthode
-     * {@link #parseListeRequete(javax.servlet.http.HttpServletRequest, rssagregator.dao.AbstrDao)} cette
+     * {@link #parseListeRequete(javax.servlet.http.HttpServletRequest, rssaggregator.dao.AbstrDao)} cette
      * {@link SearchFiltersList} est complétée
      */
     SearchFiltersList filtersList = new SearchFiltersList();

@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.servlet;
+package rssaggregator.servlet;
 
 import java.io.IOException;
 import javax.servlet.Filter;
@@ -14,9 +14,9 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import rssagregator.beans.Conf;
-import rssagregator.beans.UserAccount;
-import rssagregator.dao.DAOFactory;
+import rssaggregator.beans.Conf;
+import rssaggregator.beans.UserAccount;
+import rssaggregator.dao.DAOFactory;
 
 /**
  * Ce filtre permet d'empêcher les utilisateur non admin de lister les utilisateurs ou de modifier un compte qui n'est

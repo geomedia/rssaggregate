@@ -19,15 +19,15 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.xml.sax.SAXException;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
-import rssagregator.beans.Journal;
-import rssagregator.beans.exception.IncompleteBeanExeption;
-import rssagregator.beans.traitement.ComportementCollecte;
-import rssagregator.dao.DAOFactory;
-import rssagregator.services.ServiceCollecteur;
-import rssagregator.services.ServiceMailNotifier;
-import rssagregator.services.ServiceServer;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.Journal;
+import rssaggregator.beans.exception.IncompleteBeanExeption;
+import rssaggregator.beans.traitement.ComportementCollecte;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.services.ServiceCollecteur;
+import rssaggregator.services.ServiceMailNotifier;
+import rssaggregator.services.ServiceServer;
 
 /**
  *

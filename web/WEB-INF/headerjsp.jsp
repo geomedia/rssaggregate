@@ -1,7 +1,7 @@
 <%@page import="java.util.Properties"%>
-<%@page import="rssagregator.beans.UserAccount"%>
+<%@page import="rssaggregator.beans.UserAccount"%>
 
-<%@page import="rssagregator.dao.DAOFactory"%>
+<%@page import="rssaggregator.dao.DAOFactory"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%--<%@page contentType="text/html" pageEncoding="UTF-8"%>--%>

@@ -1,4 +1,4 @@
 /***
  * 
  */
-package rssagregator;
+package rssaggregator;

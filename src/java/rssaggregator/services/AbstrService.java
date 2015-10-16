@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
 import java.util.ArrayList;
-import rssagregator.services.tache.AbstrTache;
+import rssaggregator.services.tache.AbstrTache;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -17,10 +17,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.ScheduledExecutorService;
-import rssagregator.beans.exception.ArgumentIncorrect;
-import rssagregator.services.tache.TacheActionableSurUnBean;
-import rssagregator.utils.BeansUtils;
-import rssagregator.utils.ExceptionTool;
+import rssaggregator.beans.exception.ArgumentIncorrect;
+import rssaggregator.services.tache.TacheActionableSurUnBean;
+import rssaggregator.utils.BeansUtils;
+import rssaggregator.utils.ExceptionTool;
 
 /**
  *

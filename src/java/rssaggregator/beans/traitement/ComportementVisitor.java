@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
-import rssagregator.beans.Flux;
+import rssaggregator.beans.Flux;
 
 /**
  * Le {@link MediatorCollecteAction} peuvent être visité pour lancer l'exploitation. C'est le visiteur qui gère ainsi le traitement

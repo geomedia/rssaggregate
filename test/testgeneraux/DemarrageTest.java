@@ -15,15 +15,15 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import rssagregator.beans.Conf;
-import rssagregator.dao.DAOConf;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DaoFlux;
-import rssagregator.services.ServiceCollecteur;
-import rssagregator.services.ServiceMailNotifier;
-import rssagregator.services.ServiceServer;
-import rssagregator.servlet.StartServlet;
-import rssagregator.utils.ServiceXMLTool;
+import rssaggregator.beans.Conf;
+import rssaggregator.dao.DAOConf;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DaoFlux;
+import rssaggregator.services.ServiceCollecteur;
+import rssaggregator.services.ServiceMailNotifier;
+import rssaggregator.services.ServiceServer;
+import rssaggregator.servlet.StartServlet;
+import rssaggregator.utils.ServiceXMLTool;
 
 /**
  *

@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import com.sun.syndication.io.FeedException;
 import com.sun.syndication.io.ParsingFeedException;
@@ -15,24 +15,24 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Semaphore;
 import javax.persistence.LockModeType;
 import javax.xml.ws.http.HTTPException;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
-import rssagregator.beans.exception.CollecteUnactiveFlux;
-import rssagregator.beans.exception.UnIncidableException;
-import rssagregator.beans.incident.AbstrIncident;
-import rssagregator.beans.incident.CollecteIncident;
-import rssagregator.beans.incident.Incidable;
-import rssagregator.beans.incident.IncidentFactory;
-import rssagregator.beans.incident.RecupIncident;
-import rssagregator.utils.comparator.ComparatorBean;
-import rssagregator.beans.traitement.VisitorHTTP;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOIncident;
-import rssagregator.services.SemaphoreCentre;
-import rssagregator.services.ServiceCollecteur;
-import rssagregator.services.crud.AbstrServiceCRUD;
-import rssagregator.services.crud.ServiceCRUDFactory;
-import rssagregator.utils.ThreadUtils;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.exception.CollecteUnactiveFlux;
+import rssaggregator.beans.exception.UnIncidableException;
+import rssaggregator.beans.incident.AbstrIncident;
+import rssaggregator.beans.incident.CollecteIncident;
+import rssaggregator.beans.incident.Incidable;
+import rssaggregator.beans.incident.IncidentFactory;
+import rssaggregator.beans.incident.RecupIncident;
+import rssaggregator.utils.comparator.ComparatorBean;
+import rssaggregator.beans.traitement.VisitorHTTP;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOIncident;
+import rssaggregator.services.SemaphoreCentre;
+import rssaggregator.services.ServiceCollecteur;
+import rssaggregator.services.crud.AbstrServiceCRUD;
+import rssaggregator.services.crud.ServiceCRUDFactory;
+import rssaggregator.utils.ThreadUtils;
 
 /**
  * La tâche permettant au {@link Flux} d'être collecté périodiquement. Elle est gérée par le service

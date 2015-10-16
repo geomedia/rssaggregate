@@ -5,13 +5,13 @@ Une JSP permettant de visionner les incidents sous forme de flux RSS.
     Author     : clem
 --%>
 
-<%@page import="rssagregator.beans.Conf"%>
-<%@page import="rssagregator.dao.DAOFactory"%>
+<%@page import="rssaggregator.beans.Conf"%>
+<%@page import="rssaggregator.dao.DAOFactory"%>
 <%@page import="com.sun.syndication.feed.synd.SyndContentImpl"%>
 <%@page import="com.sun.syndication.feed.synd.SyndEntryImpl"%>
 <%@page import="com.sun.syndication.feed.synd.SyndContent"%>
 <%@page import="com.sun.syndication.feed.synd.SyndEntry"%>
-<%@page import="rssagregator.beans.incident.AbstrIncident"%>
+<%@page import="rssaggregator.beans.incident.AbstrIncident"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
 <%@page import="com.sun.syndication.io.SyndFeedOutput"%>

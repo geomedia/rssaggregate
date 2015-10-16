@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -22,12 +22,12 @@ import org.joda.time.Days;
 import org.joda.time.Duration;
 import org.joda.time.format.PeriodFormatter;
 import org.joda.time.format.PeriodFormatterBuilder;
-import rssagregator.beans.exception.ActionNonEffectuee;
-import rssagregator.beans.exception.ObjectIncompatible;
-import rssagregator.services.AbstrService;
-import rssagregator.services.SemaphoreCentre;
-import rssagregator.services.TacheConsomateur;
-import rssagregator.utils.ExceptionTool;
+import rssaggregator.beans.exception.ActionNonEffectuee;
+import rssaggregator.beans.exception.ObjectIncompatible;
+import rssaggregator.services.AbstrService;
+import rssaggregator.services.SemaphoreCentre;
+import rssaggregator.services.TacheConsomateur;
+import rssaggregator.utils.ExceptionTool;
 
 /**
  * <p>Toutes les tâches de l'application doivent hériter de cette classe abstraite. Les tache du projet GEOmedia sont

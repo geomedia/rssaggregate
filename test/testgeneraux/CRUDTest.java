@@ -12,13 +12,13 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Journal;
-import rssagregator.beans.traitement.ComportementCollecte;
-import rssagregator.services.crud.ServiceCRUDComportement;
-import rssagregator.services.crud.ServiceCRUDFactory;
-import rssagregator.services.crud.ServiceCRUDFlux;
-import rssagregator.services.crud.ServiceCRUDJournal;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Journal;
+import rssaggregator.beans.traitement.ComportementCollecte;
+import rssaggregator.services.crud.ServiceCRUDComportement;
+import rssaggregator.services.crud.ServiceCRUDFactory;
+import rssaggregator.services.crud.ServiceCRUDFlux;
+import rssaggregator.services.crud.ServiceCRUDJournal;
 
 /**
  *

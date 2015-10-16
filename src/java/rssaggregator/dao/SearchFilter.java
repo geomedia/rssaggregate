@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.dao;
+package rssaggregator.dao;
 
-import rssagregator.beans.form.AbstrForm;
+import rssaggregator.beans.form.AbstrForm;
 
 /**
  * Un critère de recherche a envoyer aux dao pour faire fonctionner la recherche par critéria. Les paramettres doivent

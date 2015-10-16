@@ -41,16 +41,16 @@
 
 
 <def>
-    <service class="rssagregator.services.ServiceServer">
+    <service class="rssaggregator.services.ServiceServer">
         <pool methodeInstanciation="newScheduledThreadPool" nbThread="5" ></pool>
-        <tache class="rssagregator.services.tache.TacheStillAlive" scheduled="true">
+        <tache class="rssaggregator.services.tache.TacheStillAlive" scheduled="true">
             <scheduleduree nbSeconde="30"></scheduleduree>
         </tache>
-        <!--        <tache class="rssagregator.services.tache.TacheDetectDeadLock" scheduled="true">
+        <!--        <tache class="rssaggregator.services.tache.TacheDetectDeadLock" scheduled="true">
             <scheduleduree nbSeconde="1000"></scheduleduree>
         </tache>-->
         
-        <tache class="rssagregator.services.tache.TacheRemoveOldFile" scheduled="true">
+        <tache class="rssaggregator.services.tache.TacheRemoveOldFile" scheduled="true">
               <var name="nbHours" class="java.lang.Integer" value="48"></var>
             <scheduleduree nbSeconde="30"></scheduleduree>
            
@@ -61,25 +61,25 @@
     <!--=====================================================
                 SERVICE DE COLLECTE
     =====================================================-->
-    <service class="rssagregator.services.ServiceCollecteur">
+    <service class="rssaggregator.services.ServiceCollecteur">
         <pool methodeInstanciation="newScheduledThreadPool" nbThread="4" ></pool>
         
-        <!--<tache class="rssagregator.services.TacheVerifComportementFluxGeneral" scheduled="true">
+        <!--<tache class="rssaggregator.services.TacheVerifComportementFluxGeneral" scheduled="true">
             <scheduleduree nbSeconde="60"></scheduleduree>
         </tache> -->
         
         <!--C'est la tâche qui permet de calculer max min med... pour la boxploat-->
-        <!--        <tache class="rssagregator.services.TacheCalculQualiteFlux" scheduled="true">
+        <!--        <tache class="rssaggregator.services.TacheCalculQualiteFlux" scheduled="true">
             <schedulejourfixe jour="2" heure="2" minute="1"></schedulejourfixe>
             <scheduleduree nbSeconde="3000"></scheduleduree>
         </tache> -->
         
-        <tache class="rssagregator.services.tache.TacheCalculQualiteFluxLancementTous" scheduled="true">
+        <tache class="rssaggregator.services.tache.TacheCalculQualiteFluxLancementTous" scheduled="true">
             <!--<touslesjoura heure="5" minute="5"></touslesjoura>-->
             <schedulejourfixe jour="4" heure="15" minute="11"></schedulejourfixe>
         </tache>
         
-        <tache class="rssagregator.services.tache.TacheRaffinerPeriodique" scheduled="true">
+        <tache class="rssaggregator.services.tache.TacheRaffinerPeriodique" scheduled="true">
             <touslesjoura heure="1" minute="1"></touslesjoura>
             
         </tache>
@@ -89,20 +89,20 @@
     <!--======================================================================
                              SERVICE DES MAILS
     ========================================================================-->
-    <service class="rssagregator.services.ServiceMailNotifier">
+    <service class="rssaggregator.services.ServiceMailNotifier">
         <pool methodeInstanciation="newScheduledThreadPool" nbThread="5" ></pool>
-        <tache class="rssagregator.services.tache.TacheVerifFluxNotificationMail" scheduled="true">
+        <tache class="rssaggregator.services.tache.TacheVerifFluxNotificationMail" scheduled="true">
             <touslesjoura heure="2" minute="0"></touslesjoura>
            <!-- <scheduleduree nbSeconde="120"/>-->
         </tache>
        
 
-        <tache class="rssagregator.services.tache.TacheAlerteMail" scheduled="true">
+        <tache class="rssaggregator.services.tache.TacheAlerteMail" scheduled="true">
             <!--<touslesjoura heure="7" minute="0"></touslesjoura>-->
             <scheduleduree nbSeconde="600"/>
         </tache> 
         
-        <tache class="rssagregator.services.tache.TacheReenvoiMail" scheduled="true">
+        <tache class="rssaggregator.services.tache.TacheReenvoiMail" scheduled="true">
             <scheduleduree nbSeconde="60"></scheduleduree>
             <var name="timeSchedule" class="java.lang.Integer" value="60"></var>
         </tache>
@@ -113,7 +113,7 @@
     
     
     <!--<tacheconf>-->
-    <!--        <tachedefaultconf class="rssagregator.services.tache.TacheRecupCallable">
+    <!--        <tachedefaultconf class="rssaggregator.services.tache.TacheRecupCallable">
         <propertie class="java.lang.Short" key="maxExecuteTime" value="60"></propertie>
     </tachedefaultconf>-->
     <!--</tacheconf>-->

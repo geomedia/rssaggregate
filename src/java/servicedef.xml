@@ -23,39 +23,39 @@
 ]>
 
 <def>
-    <service class="rssagregator.services.ServiceServer">
+    <service class="rssaggregator.services.ServiceServer">
         <pool methodeInstanciation="newScheduledThreadPool" nbThread="2" ></pool>
-        <tache class="rssagregator.services.TacheStillAlive" scheduled="true">
+        <tache class="rssaggregator.services.TacheStillAlive" scheduled="true">
             <scheduleduree nbSeconde="300"></scheduleduree>
         </tache>
     </service>
     
-    <service class="rssagregator.services.ServiceCollecteur">
+    <service class="rssaggregator.services.ServiceCollecteur">
         <pool methodeInstanciation="newScheduledThreadPool" nbThread="30" ></pool>
-        <tache class="rssagregator.services.TacheVerifComportementFluxGeneral" scheduled="true">
+        <tache class="rssaggregator.services.TacheVerifComportementFluxGeneral" scheduled="true">
             <scheduleduree nbSeconde="5000"></scheduleduree>
         </tache>
-        <tache class="rssagregator.services.TacheCalculQualiteFlux" scheduled="true">
+        <tache class="rssaggregator.services.TacheCalculQualiteFlux" scheduled="true">
             <schedulejourfixe jour="2" heure="2" minute="1"></schedulejourfixe>
         </tache>
     </service>
     
-    <service class="rssagregator.services.ServiceMailNotifier">
+    <service class="rssaggregator.services.ServiceMailNotifier">
         <pool methodeInstanciation="newScheduledThreadPool" nbThread="5" ></pool>
-        <tache class="rssagregator.services.TacheVerifFluxNotificationMail" scheduled="true">
+        <tache class="rssaggregator.services.TacheVerifFluxNotificationMail" scheduled="true">
             <touslesjoura heure="2" minute="0"></touslesjoura>
         </tache>
-        <tache class="rssagregator.services.TacheAlerteMail" scheduled="true">
+        <tache class="rssaggregator.services.TacheAlerteMail" scheduled="true">
             <touslesjoura heure="7" minute="0"></touslesjoura>
         </tache>
     </service>
     
-    <service class="rssagregator.services.ServiceSynchro">
+    <service class="rssaggregator.services.ServiceSynchro">
         <pool methodeInstanciation="newScheduledThreadPool" nbThread="1" ></pool>
-        <tache class="rssagregator.services.TacheLancerConnectionJMS" scheduled="true">
+        <tache class="rssaggregator.services.TacheLancerConnectionJMS" scheduled="true">
             <scheduleduree nbSeconde="30"></scheduleduree>
         </tache>
-        <tache class="rssagregator.services.TacheSynchroHebdomadaire" scheduled="true">
+        <tache class="rssaggregator.services.TacheSynchroHebdomadaire" scheduled="true">
             <schedulejourfixe jour="7" heure="1" minute="1"></schedulejourfixe>
         </tache>
     </service>

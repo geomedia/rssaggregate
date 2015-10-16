@@ -2,11 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.dao;
+package rssaggregator.dao;
 
 import java.util.List;
 import javax.persistence.Query;
-import rssagregator.beans.UserAccount;
+import rssaggregator.beans.UserAccount;
 
 /**
  *

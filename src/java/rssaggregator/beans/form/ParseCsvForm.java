@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.form;
+package rssaggregator.beans.form;
 
 import java.nio.charset.Charset;
 import javax.servlet.http.HttpServletRequest;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
-import rssagregator.beans.traitement.CSVParse;
+import rssaggregator.beans.traitement.CSVParse;
 
 /**
  * Permet d'interpréter le formulaire de saisie permettant a l'utilisateur de saisir les informations relatives à

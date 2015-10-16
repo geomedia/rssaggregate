@@ -6,9 +6,9 @@
 --%>
 
 
-<%@page import="rssagregator.beans.incident.CollecteIncident"%>
+<%@page import="rssaggregator.beans.incident.CollecteIncident"%>
 
-<%@page import="rssagregator.beans.incident.AbstrIncident"%>
+<%@page import="rssaggregator.beans.incident.AbstrIncident"%>
 <%@page import="java.util.Locale"%>
 <%@page import="org.joda.time.format.DateTimeFormat"%>
 <%@page import="org.joda.time.format.ISODateTimeFormat"%>
@@ -16,9 +16,9 @@
 <%@page import="org.joda.time.format.DateTimeFormatter"%>
 <%@page import="org.joda.time.DateTime"%>
 
-<%@page import="rssagregator.beans.Flux"%>
+<%@page import="rssaggregator.beans.Flux"%>
 <%@page import="org.json.simple.JSONObject"%>
-<%@page import="rssagregator.beans.Item"%>
+<%@page import="rssaggregator.beans.Item"%>
 <%@page import="java.util.List"%>
 <%@page import="org.json.simple.JSONArray"%>
 <%@ page language="java" contentType="application/json; charset=UTF-8" pageEncoding="UTF-8"%>

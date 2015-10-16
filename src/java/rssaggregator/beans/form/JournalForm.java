@@ -2,20 +2,20 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.form;
+package rssaggregator.beans.form;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.persistence.NoResultException;
 import javax.persistence.NonUniqueResultException;
 import javax.servlet.http.HttpServletRequest;
-import rssagregator.beans.Journal;
-import rssagregator.beans.traitement.ComportementCollecte;
-import rssagregator.dao.AbstrDao;
-import rssagregator.dao.DAOComportementCollecte;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DaoJournal;
-import rssagregator.utils.ServletTool;
+import rssaggregator.beans.Journal;
+import rssaggregator.beans.traitement.ComportementCollecte;
+import rssaggregator.dao.AbstrDao;
+import rssaggregator.dao.DAOComportementCollecte;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DaoJournal;
+import rssaggregator.utils.ServletTool;
 
 /**
  * Classe permettant de valider et binder les données issues d'une requête dans un bean <strong>Journal</strong>

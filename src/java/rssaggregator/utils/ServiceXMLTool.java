@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.utils;
+package rssaggregator.utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,10 +21,10 @@ import org.jdom.Attribute;
 import org.jdom.Element;
 import org.jdom.JDOMException;
 import org.jdom.input.SAXBuilder;
-import rssagregator.beans.exception.RessourceIntrouvable;
-import rssagregator.services.AbstrService;
-import rssagregator.services.tache.AbstrTache;
-import rssagregator.services.tache.TacheFactory;
+import rssaggregator.beans.exception.RessourceIntrouvable;
+import rssaggregator.services.AbstrService;
+import rssaggregator.services.tache.AbstrTache;
+import rssaggregator.services.tache.TacheFactory;
 
 /**
  *

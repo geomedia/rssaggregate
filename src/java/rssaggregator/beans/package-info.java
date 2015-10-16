@@ -10,4 +10,4 @@
  * </ul>
  * </p>
  */
-package rssagregator.beans;
+package rssaggregator.beans;

@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import au.com.bytecode.opencsv.CSVReader;
 import com.sun.syndication.io.FeedException;
@@ -18,8 +18,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
-import rssagregator.beans.Item;
-import rssagregator.beans.form.ParseCsvForm;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.form.ParseCsvForm;
 
 /**
  * Ce parseur permet de parcourir un fichier CSV afin de générer des beans ${@link Item}. Ce aprseur est utilisé lors du

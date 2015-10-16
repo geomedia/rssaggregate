@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import com.sun.syndication.io.FeedException;
 import java.io.IOException;
@@ -18,7 +18,7 @@ import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.xml.bind.annotation.XmlRootElement;
-import rssagregator.beans.Item;
+import rssaggregator.beans.Item;
 
 /**
  *

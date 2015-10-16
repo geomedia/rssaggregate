@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans;
+package rssaggregator.beans;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -21,7 +21,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 import org.eclipse.persistence.annotations.Index;
 import org.joda.time.DateTime;
-import rssagregator.utils.ExceptionTool;
+import rssaggregator.utils.ExceptionTool;
 
 /**
  * <strong>N'est plus utilisé</strong>

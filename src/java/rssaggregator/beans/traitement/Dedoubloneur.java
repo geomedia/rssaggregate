@@ -1,4 +1,4 @@
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import java.util.Iterator;
 import java.util.List;
@@ -7,11 +7,11 @@ import java.util.Set;
 import javax.persistence.Entity;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DaoItem;
-import rssagregator.services.ServiceCollecteur;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DaoItem;
+import rssaggregator.services.ServiceCollecteur;
 
 /**
  * *

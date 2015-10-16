@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.exception;
+package rssaggregator.beans.exception;
 
 /**
  *  Exception pouvant être levée si un beans ne possède pas toutes les informations nécessaires

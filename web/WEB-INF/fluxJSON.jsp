@@ -1,9 +1,9 @@
-<%@page import="rssagregator.utils.ComparatorTrieListFluxParType"%>
+<%@page import="rssaggregator.utils.ComparatorTrieListFluxParType"%>
 <%@page import="java.util.Collections"%>
 <%@ page language="java" contentType="application/json; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@page import="org.json.simple.JSONArray"%>
 <%@ page import="org.json.simple.JSONObject"%>
-<%@page import="rssagregator.beans.Flux"%>
+<%@page import="rssaggregator.beans.Flux"%>
 <%@page import="java.util.List"%>
 <%
     JSONArray array = new JSONArray();

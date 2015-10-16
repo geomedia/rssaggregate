@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -16,20 +16,20 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.persistence.EntityManager;
 import javax.persistence.LockModeType;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
-import rssagregator.beans.Journal;
-import rssagregator.beans.exception.DonneeInterneCoherente;
-import rssagregator.beans.exception.IncompleteBeanExeption;
-import rssagregator.beans.traitement.VisitorHTTP;
-import rssagregator.dao.CacheHashFlux;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DaoItem;
-import rssagregator.dao.DaoJournal;
-import rssagregator.services.tache.TacheDecouverteAjoutFlux;
-import rssagregator.services.tache.TacheFactory;
-import rssagregator.services.tache.TacheRecupCallable;
-import rssagregator.services.tache.AbstrTache;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.Journal;
+import rssaggregator.beans.exception.DonneeInterneCoherente;
+import rssaggregator.beans.exception.IncompleteBeanExeption;
+import rssaggregator.beans.traitement.VisitorHTTP;
+import rssaggregator.dao.CacheHashFlux;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DaoItem;
+import rssaggregator.dao.DaoJournal;
+import rssaggregator.services.tache.TacheDecouverteAjoutFlux;
+import rssaggregator.services.tache.TacheFactory;
+import rssaggregator.services.tache.TacheRecupCallable;
+import rssaggregator.services.tache.AbstrTache;
 
 /**
  * Cette classe permet d'instancier le service de collecte du projet. Elle est organisée autours de deux objets

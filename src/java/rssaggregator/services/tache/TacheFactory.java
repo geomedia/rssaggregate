@@ -2,17 +2,17 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
-import rssagregator.services.AbstrService;
-import rssagregator.services.ServiceCollecteur;
-import rssagregator.services.ServiceMailNotifier;
-import rssagregator.services.ServiceServer;
-//import rssagregator.services.ServiceSynchro;
-import rssagregator.utils.PropertyLoader;
+import rssaggregator.services.AbstrService;
+import rssaggregator.services.ServiceCollecteur;
+import rssaggregator.services.ServiceMailNotifier;
+import rssaggregator.services.ServiceServer;
+//import rssaggregator.services.ServiceSynchro;
+import rssaggregator.utils.PropertyLoader;
 
 /**
  *

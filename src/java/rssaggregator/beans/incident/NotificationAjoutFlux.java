@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.incident;
+package rssaggregator.beans.incident;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,9 +10,9 @@ import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Journal;
-import rssagregator.services.tache.TacheDecouverteAjoutFlux;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Journal;
+import rssaggregator.services.tache.TacheDecouverteAjoutFlux;
 
 /**
  * Ce type d'incident permet de notifier à l'administrateur que de nouveau Flux ont été découvert et ajouté par la tâche

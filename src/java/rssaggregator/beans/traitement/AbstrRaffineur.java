@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -20,9 +20,9 @@ import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 import org.reflections.Reflections;
-import rssagregator.beans.ContentRSS;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
+import rssaggregator.beans.ContentRSS;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
 
 /**
  * Les raffineur ont pour tache principale de faire correspondre une {@link Item} à un {@link ItemRaffinee}
@@ -161,7 +161,7 @@ public abstract class AbstrRaffineur implements Serializable, Cloneable {
     }
 
     public static void main(String[] args) {
-        Reflections reflections = new Reflections("rssagregator.beans.traitement");
+        Reflections reflections = new Reflections("rssaggregator.beans.traitement");
         Set<Class<? extends AbstrRaffineur>> imp = reflections.getSubTypesOf(AbstrRaffineur.class);
 
         for (Iterator<Class<? extends AbstrRaffineur>> it = imp.iterator(); it.hasNext();) {

@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
 import java.io.File;
 import java.util.Properties;
-import rssagregator.services.tache.TacheEnvoyerMail;
-import rssagregator.services.tache.TacheFactory;
-import rssagregator.utils.ThreadUtils;
+import rssaggregator.services.tache.TacheEnvoyerMail;
+import rssaggregator.services.tache.TacheFactory;
+import rssaggregator.utils.ThreadUtils;
 
 /**
  * Une tache parcourant le répertoire des mail afin de réenvoyer les potentiel mail qui ne sont pas part

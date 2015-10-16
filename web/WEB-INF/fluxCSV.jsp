@@ -4,8 +4,8 @@
     Author     : clem
     Cette JSP permet d'exporter des flux sous forme d'un tableau CSV. Le CSV a vocation a récapituler l'ensemble des informations sur le flux.
 --%>
-<%@page import="rssagregator.beans.Flux"%>
-<%@page import="rssagregator.beans.Journal"%>
+<%@page import="rssaggregator.beans.Flux"%>
+<%@page import="rssaggregator.beans.Journal"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
 <%@page import="au.com.bytecode.opencsv.CSVWriter"%>

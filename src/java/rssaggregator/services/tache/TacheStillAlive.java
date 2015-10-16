@@ -2,17 +2,17 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import java.io.File;
 import java.util.Date;
 import java.util.List;
-import rssagregator.beans.StillAlivePOJO;
-import rssagregator.beans.incident.AliveIncident;
-import rssagregator.beans.incident.IncidentFactory;
-import rssagregator.services.crud.AbstrServiceCRUD;
-import rssagregator.services.crud.ServiceCRUDFactory;
-import rssagregator.utils.PropertyLoader;
+import rssaggregator.beans.StillAlivePOJO;
+import rssaggregator.beans.incident.AliveIncident;
+import rssaggregator.beans.incident.IncidentFactory;
+import rssaggregator.services.crud.AbstrServiceCRUD;
+import rssaggregator.services.crud.ServiceCRUDFactory;
+import rssaggregator.utils.PropertyLoader;
 
 /**
  * Cette tache écrit dans un fichier de log propre /var/lib/rssaggregate/log/stillalive. Ce fichier permet de vérifier

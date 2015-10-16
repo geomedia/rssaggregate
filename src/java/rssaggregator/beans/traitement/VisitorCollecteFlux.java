@@ -2,11 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import java.util.List;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
 
 /**
  * Les VisitorCollecteFlux sont chargé du traitement de collecte du flux. Pour cela ils utilisent différents objets :

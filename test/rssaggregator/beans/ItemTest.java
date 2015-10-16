@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans;
+package rssaggregator.beans;
 
 import java.sql.Timestamp;
 import java.util.Date;
@@ -13,8 +13,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import rssagregator.beans.traitement.AbstrRaffineur;
-import rssagregator.beans.traitement.RaffineurSimpleImplementation;
+import rssaggregator.beans.traitement.AbstrRaffineur;
+import rssaggregator.beans.traitement.RaffineurSimpleImplementation;
 
 /**
  *

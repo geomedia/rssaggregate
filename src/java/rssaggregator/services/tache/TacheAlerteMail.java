@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import java.util.Date;
 import java.util.Iterator;
@@ -12,13 +12,13 @@ import java.util.concurrent.TimeUnit;
 import javax.persistence.LockModeType;
 import javax.persistence.Query;
 import org.apache.velocity.VelocityContext;
-import rssagregator.beans.incident.AbstrIncident;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOIncident;
-import rssagregator.services.ServiceMailNotifier;
-import rssagregator.services.crud.AbstrServiceCRUD;
-import rssagregator.services.crud.ServiceCRUDFactory;
-import rssagregator.services.mailtemplate.VelocityTemplateLoad;
+import rssaggregator.beans.incident.AbstrIncident;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOIncident;
+import rssaggregator.services.ServiceMailNotifier;
+import rssaggregator.services.crud.AbstrServiceCRUD;
+import rssaggregator.services.crud.ServiceCRUDFactory;
+import rssaggregator.services.mailtemplate.VelocityTemplateLoad;
 
 /**
  * Cette tache a pour role de collecter toutes les 30 minutes les incidents nouveaux et d'envoyer un mail aux
@@ -85,7 +85,7 @@ public class TacheAlerteMail extends TacheImpl<TacheAlerteMail> {
             vCtxt.put("incidents", incidents);
             vCtxt.put("titreMail", "Alerte d'incident ou évènements survenu sur le serveur");
             vCtxt.put("descMail", "Des incident ou évènement se sont produit sur le serveur. Cette tâche d'alerte est executée toute les " + this.printSchedule() + " afin de vérifier la présence de nouveau incidents de de nous en notifier l'existence.");
-            String txtMail = VelocityTemplateLoad.rendu("rssagregator/services/mailtemplate/MailAlertTemplate.vsl", vCtxt);
+            String txtMail = VelocityTemplateLoad.rendu("rssaggregator/services/mailtemplate/MailAlertTemplate.vsl", vCtxt);
             mailSendTask.setContent(txtMail);
 
             mailSendTask.setPropertiesMail(serviceMail.getPropertiesMail());

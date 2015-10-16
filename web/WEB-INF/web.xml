@@ -44,7 +44,7 @@
         </session-timeout>
     </session-config>
     <listener>
-        <listener-class>rssagregator.servlet.StartServlet</listener-class>
+        <listener-class>rssaggregator.servlet.StartServlet</listener-class>
     </listener>
     
     
@@ -87,7 +87,7 @@
     <!--Le filtre permettant de forcer l'identification-->
     <filter>
         <filter-name>AuthFilter</filter-name>
-        <filter-class>rssagregator.servlet.FilterIdent</filter-class>
+        <filter-class>rssaggregator.servlet.FilterIdent</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>AuthFilter</filter-name>
@@ -99,7 +99,7 @@
     <!--Le filtre permettant de restreindre l'accès aux servlet permettant de modifier les entités (flux, journaux etc). Les action de moficication sont restreintes.-->
     <filter>
         <filter-name>RestrictionFilter</filter-name>
-        <filter-class>rssagregator.servlet.FilterBasicBeans</filter-class>
+        <filter-class>rssaggregator.servlet.FilterBasicBeans</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>RestrictionFilter</filter-name>
@@ -115,7 +115,7 @@
     <!--Filtre permettant de restreindre l'acces uniquement aux administrateurs-->
     <filter>
         <filter-name>RestrictionAdmin</filter-name>
-        <filter-class>rssagregator.servlet.FilterAdminOnly</filter-class>
+        <filter-class>rssaggregator.servlet.FilterAdminOnly</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>RestrictionAdmin</filter-name>
@@ -127,7 +127,7 @@
     
     <filter>
         <filter-name>UserBeanRestrict</filter-name>
-        <filter-class>rssagregator.servlet.FilterUserBean</filter-class>
+        <filter-class>rssaggregator.servlet.FilterUserBean</filter-class>
     </filter>
     
     

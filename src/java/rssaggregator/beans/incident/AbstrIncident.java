@@ -1,4 +1,4 @@
-package rssagregator.beans.incident;
+package rssaggregator.beans.incident;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -16,10 +16,10 @@ import javax.persistence.Transient;
 import javax.persistence.Version;
 import org.joda.time.DateTime;
 import org.joda.time.Duration;
-import rssagregator.beans.Conf;
-import rssagregator.dao.DAOFactory;
-import rssagregator.services.tache.TacheAlerteMail;
-import rssagregator.utils.ExceptionTool;
+import rssaggregator.beans.Conf;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.services.tache.TacheAlerteMail;
+import rssaggregator.utils.ExceptionTool;
 
 /**
  * *
