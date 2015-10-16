@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE def [
+  <!ELEMENT def (service*, tachedefaultconf*)>
+  <!ELEMENT service (pool, tache*)>
+  <!ELEMENT pool EMPTY>
+  <!ELEMENT tache ((schedulejourfixe|scheduleduree|touslesjoura), var*)>
+  <!ELEMENT schedulejourfixe EMPTY>
+  <!ELEMENT touslesjoura EMPTY>
+  <!ELEMENT scheduleduree EMPTY>
+  <!ELEMENT var EMPTY>
+<!--<!ELEMENT tacheconf (tachedefaultconf)>-->
+  <!ELEMENT tachedefaultconf (propertie)>
+  <!ELEMENT propertie EMPTY>
+  
+  
+  <!ATTLIST service class CDATA #REQUIRED>
+  <!ATTLIST tache class CDATA #REQUIRED>
+    <!ATTLIST tachedefaultconf class CDATA #REQUIRED>
+  <!ATTLIST tache scheduled (true|false) #IMPLIED>
+  
+  <!ATTLIST schedulejourfixe jour (1|2|3|4|5|6|7) #REQUIRED>
+  <!ATTLIST schedulejourfixe heure (0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23) #REQUIRED> 
+  <!ATTLIST touslesjoura heure (0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23) #REQUIRED> 
+  <!ATTLIST schedulejourfixe minute (0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58|59) #REQUIRED> 
+  <!ATTLIST touslesjoura minute (0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58|59) #REQUIRED> 
+  <!ATTLIST scheduleduree nbSeconde CDATA #REQUIRED>
+  <!ATTLIST pool methodeInstanciation CDATA #REQUIRED>
+  <!ATTLIST pool nbThread CDATA #REQUIRED>
+  <!ATTLIST var value CDATA #REQUIRED>
+  <!ATTLIST var class CDATA #REQUIRED>
+  <!ATTLIST var name CDATA #REQUIRED>
+  
+    <!ATTLIST propertie key CDATA #REQUIRED>
+    <!ATTLIST propertie class CDATA #REQUIRED>
+    <!ATTLIST propertie value CDATA #REQUIRED>
+  
+
+]>
+
+
+
+
+<def>
+    <service class="rssagregator.services.ServiceServer">
+        <pool methodeInstanciation="newScheduledThreadPool" nbThread="5" ></pool>
+        <tache class="rssagregator.services.tache.TacheStillAlive" scheduled="true">
+            <scheduleduree nbSeconde="30"></scheduleduree>
+        </tache>
+        <!--        <tache class="rssagregator.services.tache.TacheDetectDeadLock" scheduled="true">
+            <scheduleduree nbSeconde="1000"></scheduleduree>
+        </tache>-->
+        
+        <tache class="rssagregator.services.tache.TacheRemoveOldFile" scheduled="true">
+              <var name="nbHours" class="java.lang.Integer" value="48"></var>
+            <scheduleduree nbSeconde="30"></scheduleduree>
+           
+        </tache>
+    </service>
+    
+    
+    <!--=====================================================
+                SERVICE DE COLLECTE
+    =====================================================-->
+    <service class="rssagregator.services.ServiceCollecteur">
+        <pool methodeInstanciation="newScheduledThreadPool" nbThread="4" ></pool>
+        
+        <!--<tache class="rssagregator.services.TacheVerifComportementFluxGeneral" scheduled="true">
+            <scheduleduree nbSeconde="60"></scheduleduree>
+        </tache> -->
+        
+        <!--C'est la tâche qui permet de calculer max min med... pour la boxploat-->
+        <!--        <tache class="rssagregator.services.TacheCalculQualiteFlux" scheduled="true">
+            <schedulejourfixe jour="2" heure="2" minute="1"></schedulejourfixe>
+            <scheduleduree nbSeconde="3000"></scheduleduree>
+        </tache> -->
+        
+        <tache class="rssagregator.services.tache.TacheCalculQualiteFluxLancementTous" scheduled="true">
+            <!--<touslesjoura heure="5" minute="5"></touslesjoura>-->
+            <schedulejourfixe jour="4" heure="15" minute="11"></schedulejourfixe>
+        </tache>
+        
+        <tache class="rssagregator.services.tache.TacheRaffinerPeriodique" scheduled="true">
+            <touslesjoura heure="1" minute="1"></touslesjoura>
+            
+        </tache>
+        
+    </service>
+    
+    <!--======================================================================
+                             SERVICE DES MAILS
+    ========================================================================-->
+    <service class="rssagregator.services.ServiceMailNotifier">
+        <pool methodeInstanciation="newScheduledThreadPool" nbThread="5" ></pool>
+        <tache class="rssagregator.services.tache.TacheVerifFluxNotificationMail" scheduled="true">
+            <touslesjoura heure="2" minute="0"></touslesjoura>
+           <!-- <scheduleduree nbSeconde="120"/>-->
+        </tache>
+       
+
+        <tache class="rssagregator.services.tache.TacheAlerteMail" scheduled="true">
+            <!--<touslesjoura heure="7" minute="0"></touslesjoura>-->
+            <scheduleduree nbSeconde="600"/>
+        </tache> 
+        
+        <tache class="rssagregator.services.tache.TacheReenvoiMail" scheduled="true">
+            <scheduleduree nbSeconde="60"></scheduleduree>
+            <var name="timeSchedule" class="java.lang.Integer" value="60"></var>
+        </tache>
+    </service>
+    
+
+    
+    
+    
+    <!--<tacheconf>-->
+    <!--        <tachedefaultconf class="rssagregator.services.tache.TacheRecupCallable">
+        <propertie class="java.lang.Short" key="maxExecuteTime" value="60"></propertie>
+    </tachedefaultconf>-->
+    <!--</tacheconf>-->
+</def>
+
