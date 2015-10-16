@@ -30,7 +30,7 @@ $(document).ready(function() {
         if ($('#sousFormDiscover').children().length === 0) {
             $('#linkDiscover').text("annuler")
             $('#sousFormDiscover').empty();
-            $('#sousFormDiscover').append("<form action=\"/RSSAgregate/journaux/discover\">\n\
+            $('#sousFormDiscover').append("<form action=\"/rssaggregate/journaux/discover\">\n\
         \n\
 <fieldset>\n\
 <label>Enregistrer les flux découverts dans la base de données</label><input type=\"checkbox\" name=\"persist\" /><br />\n\

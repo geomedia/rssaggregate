@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context antiJARLocking="true" path="/RSSAgregate">
+<Context antiJARLocking="true" path="/rssaggregate">
     
   <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="postgrebaserss" password="LGSw700S" type="javax.sql.DataSource" url="jdbc:postgresql://localhost/baserss" username="clem"/>
   <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="postgresqlClem" password="LGSw700S" type="javax.sql.DataSource" url="jdbc:postgresql://localhost/baserss" username="clem"/>
@@ -27,7 +27,7 @@
 <!--        <Environment name="conf/varpath"
         type="java.lang.String"
 
-        value="/var/lib/RSSAgregate/"
+        value="/var/lib/rssaggregate/"
         description="Définit ou trouver les fichier de conf" />-->
   
                 <Environment name="confpath"

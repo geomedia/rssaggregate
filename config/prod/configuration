@@ -4,4 +4,4 @@ SERVER=mygrid.huma-num.fr
 USER=geomedia
 WEBAPPS="/sites/geomedia/resource/tomcat/prod/webapps"
 REMOTE_DIST=$WEBAPPS/
-REMOTE_WEB=$WEBAPPS/RSSAgregate/
+REMOTE_WEB=$WEBAPPS/rssaggregate/

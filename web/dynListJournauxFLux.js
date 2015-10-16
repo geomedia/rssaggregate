@@ -116,7 +116,7 @@ $(document).ready(function() {
         if (val != '') {
             $('#fluxSelection').empty(); // on vide la liste des départements
             $.ajax({
-                url: '/RSSAgregate/flux/list?vue=json',
+                url: '/rssaggregate/flux/list?vue=json',
                 data: 'journalid=' + val, // on envoie $_GET['id_region']
                 dataType: 'json',
                 success: function(json) {
@@ -169,7 +169,7 @@ $(document).ready(function() {
 
         $('#fluxSelection').empty(); // on vide la liste des départements
         $.ajax({
-            url: '/RSSAgregate/flux/list?vue=json',
+            url: '/rssaggregate/flux/list?vue=json',
             data: datareq, // on envoie $_GET['id_region']
             dataType: 'json',
             success: function(json) {

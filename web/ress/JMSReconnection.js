@@ -10,7 +10,7 @@ $(document).ready(function() {
     var $pinfoJMS = $('#pinfoJMS');
     $bt.on('click', function truc2() {
         $.ajax({
-            url: '/RSSAgregate/config/jmsreload',
+            url: '/rssaggregate/config/jmsreload',
             data: '', // on envoie $_GET['id_region']
             dataType: 'text',
             success: function(txt) {

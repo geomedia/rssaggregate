@@ -5,7 +5,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%--<%@page contentType="text/html" pageEncoding="UTF-8"%>--%>
-<c:set var="rootpath" value="/RSSAgregate/" scope="request"></c:set>
+<c:set var="rootpath" value="/rssaggregate/" scope="request"></c:set>
 
     <!DOCTYPE html>
     <html>
@@ -73,14 +73,14 @@
 
             <div style="float: left">
 
-                <a href ="/RSSAgregate/index" style="display: block;">
+                <a href ="/rssaggregate/index" style="display: block;">
                     <%
 //                        if (DAOFactory.getInstance().getDAOConf().getConfCourante().getMaster()) {
-//                            out.println("<img src=\"/RSSAgregate/ress/img/logo_mastervert.png\"/>");
+//                            out.println("<img src=\"/rssaggregate/ress/img/logo_mastervert.png\"/>");
 //                            request.setAttribute("master", true);
 //                        } else {
-//                            out.println("<img src=\"/RSSAgregate/ress/img/logo_masterrouge.png\"/>");
-                        out.println("<img src=\"/RSSAgregate/ress/img/logo_mastervert.png\"/>");
+//                            out.println("<img src=\"/rssaggregate/ress/img/logo_masterrouge.png\"/>");
+                        out.println("<img src=\"/rssaggregate/ress/img/logo_mastervert.png\"/>");
                         request.setAttribute("master", false);
 //                        }
 %>

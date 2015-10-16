@@ -71,9 +71,9 @@ public class ColleteTest {
 
 
 //        //La var context est définit statiquement
-//        System.setProperty("confpath", "/var/lib/RSSAgregate/");
+//        System.setProperty("confpath", "/var/lib/rssaggregate/");
 //        // * Instanciation de la daofactory avec un context Spécifique
-//        DAOFactory dAOFactory = DAOFactory.getInstanceWithSpecificPU("RSSAgregatePUTest");
+//        DAOFactory dAOFactory = DAOFactory.getInstanceWithSpecificPU("rssaggregatePUTest");
 //        // On supprime les données de la base de test
 //        clearDB();
 //
@@ -167,14 +167,14 @@ public class ColleteTest {
 
         Flux flux_Klem_Inter = new Flux();
         flux_Klem_Inter.setID(new Long(1));
-        flux_Klem_Inter.setUrl("http://localhost:8080/RSSAgregate/test/KZinter.xml");
+        flux_Klem_Inter.setUrl("http://localhost:8080/rssaggregate/test/KZinter.xml");
         flux_Klem_Inter.setMediatorFlux(comportement);
         flux_Klem_Inter.setActive(Boolean.TRUE);
         flux_Klem_Inter.setJournalLie(journal_KlemZeitung);
 
         Flux flux_Klemm_Une = new Flux();
         flux_Klemm_Une.setID(new Long(2));
-        flux_Klemm_Une.setUrl("http://localhost:8080/RSSAgregate/test/KZune.xml");
+        flux_Klemm_Une.setUrl("http://localhost:8080/rssaggregate/test/KZune.xml");
         flux_Klemm_Une.setMediatorFlux(comportement);
         flux_Klemm_Une.setActive(Boolean.TRUE);
         flux_Klemm_Une.setJournalLie(journal_KlemZeitung);
@@ -182,14 +182,14 @@ public class ColleteTest {
 
         Flux flux_Cist_Inter = new Flux();
         flux_Cist_Inter.setID(new Long(3));
-        flux_Cist_Inter.setUrl("http://localhost:8080/RSSAgregate/test/CInter.xml");
+        flux_Cist_Inter.setUrl("http://localhost:8080/rssaggregate/test/CInter.xml");
         flux_Cist_Inter.setMediatorFlux(comportement);
         flux_Cist_Inter.setActive(true);
         flux_Cist_Inter.setJournalLie(journal_Cist);
 
         Flux flux_Cist_Une = new Flux();
         flux_Cist_Une.setID(new Long(4));
-        flux_Cist_Une.setUrl("http://localhost:8080/RSSAgregate/test/CUne.xml");
+        flux_Cist_Une.setUrl("http://localhost:8080/rssaggregate/test/CUne.xml");
         flux_Cist_Une.setMediatorFlux(comportement);
         flux_Cist_Une.setActive(true);
         flux_Cist_Une.setJournalLie(journal_Cist);
@@ -197,7 +197,7 @@ public class ColleteTest {
 
         Flux flux_Quibouge = new Flux();
         flux_Quibouge.setID(new Long(5));
-        flux_Quibouge.setUrl("http://localhost:8080/RSSAgregate/test/quibouge1.xml");
+        flux_Quibouge.setUrl("http://localhost:8080/rssaggregate/test/quibouge1.xml");
         flux_Quibouge.setMediatorFlux(comportement);
         flux_Quibouge.setActive(true);
         // On ne lui donne pas de journal
@@ -339,7 +339,7 @@ public class ColleteTest {
 
 
         //------> vérification du flux qui bouge. On lui change l'url pour avoir un xml légèrement modifié qui doit donner naissance a une nouvelle item
-        flux_Quibouge.setUrl("http://localhost:8080/RSSAgregate/test/quibouge2.xml");
+        flux_Quibouge.setUrl("http://localhost:8080/rssaggregate/test/quibouge2.xml");
         em.getTransaction().begin();
         em.merge(flux_Quibouge);
         em.getTransaction().commit();

@@ -95,7 +95,7 @@ public class ItemFormTest {
         sr.registerServlet("myServlet", ItemSrvl.class.getName());
 
         ServletUnitClient sc = sr.newClient();
-        WebRequest webrequest = new PostMethodWebRequest("http://localhost//RSSAgregate/item/list");
+        WebRequest webrequest = new PostMethodWebRequest("http://localhost//rssaggregate/item/list");
         // filter param : {"caption":"truc modif","groupOp":"AND","rules":[],"spefield":[{"field":"idFlux","op":"in","data":[18328]},{"field":"date2","op":"lt","data":""},{"field":"date1","op":"gt","data":"01/11/2013"}]}
         webrequest.setParameter("filters", "{\"caption\":\"truc modif\",\"groupOp\":\"AND\",\"rules\":[],\"spefield\":[{\"field\":\"listFlux\",\"op\":\"in\",\"data\":[18328]},{\"field\":\"date2\",\"op\":\"lt\",\"data\":\"05/11/2013\"},{\"field\":\"date1\",\"op\":\"gt\",\"data\":\"01/11/2013\"}]}");
 

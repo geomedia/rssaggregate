@@ -49,7 +49,7 @@ $(document).ready(function() {
 //                  ENVOIE DE LA REQUETE EN AJAX
 //-----------------------------------------------------------------
         $.ajax({
-            url: '/RSSAgregate/flux/list?&vue=jsondesc',
+            url: '/rssaggregate/flux/list?&vue=jsondesc',
             data: 'journalid=' + $journalid.val() + '&firstResult=' + $firstResult.val() + '&itPrPage=' + $itPrPage.val(), // on envoie $_GET['id_region']
             dataType: 'json',
             success: function(jsonentre) {
@@ -64,7 +64,7 @@ $(document).ready(function() {
                     $resudiv.append('<li>' +
                             '<input name="id" type="checkbox" value="' + json[i]['id'] + '">' +
                             '</input>' +
-                            '<a href="/RSSAgregate/flux/read?id=' + json[i]['id'] + '">' + json[i]['flux'].trim() + '</a>');
+                            '<a href="/rssaggregate/flux/read?id=' + json[i]['id'] + '">' + json[i]['flux'].trim() + '</a>');
                     $resudiv.append('</li>');
                 }
 
@@ -124,7 +124,7 @@ $(document).ready(function() {
         // Requête en ajax
 
         $.ajax({
-            url: '/RSSAgregate/flux/statcaptation?&id=' + id,
+            url: '/rssaggregate/flux/statcaptation?&id=' + id,
             data: '', // on envoie $_GET['id_region']
             dataType: 'json',
             success: function(jsonentre) {

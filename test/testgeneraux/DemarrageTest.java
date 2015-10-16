@@ -49,9 +49,9 @@ public class DemarrageTest {
     @Before
     public void setUp() {
            //La var context est définit statiquement
-        System.setProperty("confpath", "/var/lib/RSSAgregate/");
+        System.setProperty("confpath", "/var/lib/rssaggregate/");
         // * Instanciation de la daofactory avec un context Spécifique
-        DAOFactory dAOFactory = DAOFactory.getInstanceWithSpecificPU("RSSAgregatePUTest");
+        DAOFactory dAOFactory = DAOFactory.getInstanceWithSpecificPU("rssaggregatePUTest");
         // On supprime les données de la base de test
         clearDB();
 

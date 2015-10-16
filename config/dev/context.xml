@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Context antiJARLocking="true" path="/RSSAgregate">
+<Context antiJARLocking="true" path="/rssaggregate">
 
   <!--Define here the location of the configuration files-->
   <Environment name="confpath" type="java.lang.String" value="/sites/geomedia/resource/config/dev/" description="Define where to find the configuration files"/>

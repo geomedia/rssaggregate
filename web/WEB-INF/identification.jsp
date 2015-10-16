@@ -12,13 +12,13 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>GEOMEDIA - Identification</title>
-        <link href="/RSSAgregate/ress/style.css" type="text/css" rel="stylesheet" media="all"/>
+        <link href="/rssaggregate/ress/style.css" type="text/css" rel="stylesheet" media="all"/>
     </head>
     <body>
         <div id="banner">
-            <a href ="/RSSAgregate/index">
+            <a href ="/rssaggregate/index">
                 <%
-                        out.println("<img src=\"/RSSAgregate/ress/img/logo_mastervert.png\"/>");
+                        out.println("<img src=\"/rssaggregate/ress/img/logo_mastervert.png\"/>");
                         request.setAttribute("master", true);
                 %>
             </a>
@@ -47,7 +47,7 @@
                                             
                     </p>
 
-                    <form method="POST" action="/RSSAgregate/ident/login">
+                    <form method="POST" action="/rssaggregate/ident/login">
                         <span class="erreur">${err}</span>
                         <label>Email : </label>
                         <input type="text" name="mail"/><br />
