@@ -1,12 +1,12 @@
-//package rssagregator.beans.traitement;
+//package rssaggregator.beans.traitement;
 //
 //import java.util.Vector;
 //import javax.persistence.Entity;
 //import javax.persistence.Inheritance;
 //import javax.persistence.InheritanceType;
 //import org.jsoup.Jsoup;
-//import rssagregator.beans.ContentRSS;
-//import rssagregator.beans.ItemRaffinee;
+//import rssaggregator.beans.ContentRSS;
+//import rssaggregator.beans.ItemRaffinee;
 //@Entity
 //@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 //public class RafineurHTML extends RaffineurImpl {

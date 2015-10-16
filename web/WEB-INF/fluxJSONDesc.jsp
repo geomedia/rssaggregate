@@ -6,9 +6,9 @@
 --%>
 
 
-<%@page import="rssagregator.beans.Flux"%>
+<%@page import="rssaggregator.beans.Flux"%>
 <%@page import="org.json.simple.JSONObject"%>
-<%@page import="rssagregator.beans.Item"%>
+<%@page import="rssaggregator.beans.Item"%>
 <%@page import="java.util.List"%>
 <%@page import="org.json.simple.JSONArray"%>
 <%@page contentType="text/xml" pageEncoding="UTF-8"%>

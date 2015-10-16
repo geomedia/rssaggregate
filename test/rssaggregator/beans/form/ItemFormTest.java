@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.form;
+package rssaggregator.beans.form;
 
 import com.meterware.httpunit.PostMethodWebRequest;
 import com.meterware.httpunit.WebRequest;
@@ -21,11 +21,11 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import rssagregator.beans.Flux;
-import rssagregator.dao.AbstrDao;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.SearchFilter;
-import rssagregator.servlet.ItemSrvl;
+import rssaggregator.beans.Flux;
+import rssaggregator.dao.AbstrDao;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.SearchFilter;
+import rssaggregator.servlet.ItemSrvl;
 
 /**
  *

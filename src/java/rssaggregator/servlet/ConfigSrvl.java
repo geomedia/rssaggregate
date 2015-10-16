@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.servlet;
+package rssaggregator.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -10,10 +10,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import rssagregator.beans.Conf;
-import rssagregator.dao.DAOConf;
-import rssagregator.dao.DAOFactory;
-import rssagregator.utils.ServletTool;
+import rssaggregator.beans.Conf;
+import rssaggregator.dao.DAOConf;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.utils.ServletTool;
 
 /**
  * La Servlet utilisée pour rediriger les requetes de l'utilisateur relatif à la

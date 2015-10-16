@@ -2,14 +2,14 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
 import java.util.Iterator;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
-import rssagregator.services.tache.AbstrTache;
+import rssaggregator.services.tache.AbstrTache;
 
 /**
  * Le consomateur est chargé de vider les tache de la queueTacheALancer du service en les lancant dans le pool

@@ -1,4 +1,4 @@
-package rssagregator.beans;
+package rssaggregator.beans;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
@@ -17,9 +17,9 @@ import javax.persistence.Version;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 import org.apache.poi.util.Beta;
-import rssagregator.beans.traitement.ComportementCollecte;
-import rssagregator.dao.DAOFactory;
-import rssagregator.services.tache.TacheDecouverteAjoutFlux;
+import rssaggregator.beans.traitement.ComportementCollecte;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.services.tache.TacheDecouverteAjoutFlux;
 
 /**
  * Un journal : Le monde, le Figaro... Un journal peut contenir plusieurs {@link Flux}. Les journaux sont synchronisés

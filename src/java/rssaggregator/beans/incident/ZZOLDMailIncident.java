@@ -2,11 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.incident;
+package rssaggregator.beans.incident;
 
 import java.io.Serializable;
-import rssagregator.services.ServiceMailNotifier;
-import rssagregator.services.tache.TacheEnvoyerMail;
+import rssaggregator.services.ServiceMailNotifier;
+import rssaggregator.services.tache.TacheEnvoyerMail;
 
 /**
  * /!\ Cette classe N'est plus utilisé ca alourdi trop la base de données. Les mail qui ne partent pas sont maintenant stocké sur le disque dur du serveur

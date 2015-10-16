@@ -2,11 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import java.util.Comparator;
-import rssagregator.beans.ContentRSS;
-import rssagregator.beans.DoublonDe;
+import rssaggregator.beans.ContentRSS;
+import rssaggregator.beans.DoublonDe;
 
 /**
  *

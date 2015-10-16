@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.form;
+package rssaggregator.beans.form;
 
 import java.sql.Timestamp;
 import java.util.Date;
@@ -12,16 +12,16 @@ import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.servlet.http.HttpServletRequest;
-import rssagregator.beans.Flux;
-import rssagregator.beans.FluxType;
-import rssagregator.beans.Journal;
-import static rssagregator.beans.form.AbstrForm.ERR_NE_PEUT_ETRE_NULL;
-import rssagregator.beans.traitement.ComportementCollecte;
-import rssagregator.dao.DAOComportementCollecte;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOGenerique;
-import rssagregator.dao.DaoFlux;
-import rssagregator.dao.DaoJournal;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.FluxType;
+import rssaggregator.beans.Journal;
+import static rssaggregator.beans.form.AbstrForm.ERR_NE_PEUT_ETRE_NULL;
+import rssaggregator.beans.traitement.ComportementCollecte;
+import rssaggregator.dao.DAOComportementCollecte;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOGenerique;
+import rssaggregator.dao.DaoFlux;
+import rssaggregator.dao.DaoJournal;
 
 /**
  * Formulaire permettant de valider et binder des données envoyée par l'utilisateur dans un beans de type Flux

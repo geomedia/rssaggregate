@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.form;
+package rssaggregator.beans.form;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,8 +13,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.servlet.http.HttpServletRequest;
 import org.reflections.Reflections;
-import rssagregator.beans.traitement.AbstrRaffineur;
-import rssagregator.beans.traitement.ComportementCollecte;
+import rssaggregator.beans.traitement.AbstrRaffineur;
+import rssaggregator.beans.traitement.ComportementCollecte;
 
 /**
  * Le formulaire permettant de valider et binder un beans {@link ComportementCollecte}
@@ -51,7 +51,7 @@ public class ComportementCollecteForm extends AbstrForm {
         
             //---> On ajoute tous les raffineurs possible au nouveau comportement
 //            if (collecte.getRaffineur().isEmpty()) {
-            Reflections reflections = new Reflections("rssagregator.beans.traitement");
+            Reflections reflections = new Reflections("rssaggregator.beans.traitement");
             Set<Class<? extends AbstrRaffineur>> imp = reflections.getSubTypesOf(AbstrRaffineur.class);
             for (Iterator<Class<? extends AbstrRaffineur>> it = ComportementCollecte.getRequesteurClass().iterator(); it.hasNext();) {
                 Class<? extends AbstrRaffineur> class1 = it.next();
@@ -313,7 +313,7 @@ public class ComportementCollecteForm extends AbstrForm {
 
     public static void main(String[] args) {
         try {
-            Class c = Class.forName("rssagregator.beans.traitement.RaffineurSimpleImplementation");
+            Class c = Class.forName("rssaggregator.beans.traitement.RaffineurSimpleImplementation");
             System.out.println("Class " + c);
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(ComportementCollecteForm.class.getName()).log(Level.SEVERE, null, ex);

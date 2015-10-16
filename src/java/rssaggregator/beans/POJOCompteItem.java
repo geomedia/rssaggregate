@@ -1,4 +1,4 @@
-package rssagregator.beans;
+package rssaggregator.beans;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -17,8 +17,8 @@ import org.joda.time.Days;
 import org.joda.time.Duration;
 import org.joda.time.Interval;
 import org.joda.time.chrono.CopticChronology;
-import rssagregator.dao.DAOFactory;
-import rssagregator.utils.ExceptionTool;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.utils.ExceptionTool;
 
 /**
  * *

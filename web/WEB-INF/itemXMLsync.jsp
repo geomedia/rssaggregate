@@ -4,8 +4,8 @@
     Author     : clem
 --%>
 
-<%@page import="rssagregator.utils.XMLTool"%>
-<%@page import="rssagregator.beans.Item"%>
+<%@page import="rssaggregator.utils.XMLTool"%>
+<%@page import="rssaggregator.beans.Item"%>
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="application/xml; charset=UTF-8" pageEncoding="UTF-8"%>
 <%

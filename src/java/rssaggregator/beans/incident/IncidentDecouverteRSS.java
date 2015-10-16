@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.incident;
+package rssaggregator.beans.incident;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.OneToOne;
-import rssagregator.beans.Journal;
-import rssagregator.services.tache.TacheDecouverteAjoutFlux;
+import rssaggregator.beans.Journal;
+import rssaggregator.services.tache.TacheDecouverteAjoutFlux;
 
 /**
  * Lors de l'ajout des flux des incidents peuvent se produirent. Incident de la tache {@link TacheDecouverteAjoutFlux}.

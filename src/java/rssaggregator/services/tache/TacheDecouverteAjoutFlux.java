@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import com.sun.syndication.feed.synd.SyndFeed;
 import com.sun.syndication.io.SyndFeedInput;
@@ -26,19 +26,19 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.parser.Parser;
 import org.jsoup.select.Elements;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Journal;
-import rssagregator.beans.exception.AucunFluxDecouvert;
-import rssagregator.beans.incident.Incidable;
-import rssagregator.beans.incident.IncidentDecouverteRSS;
-import rssagregator.beans.incident.IncidentFactory;
-import rssagregator.beans.incident.NotificationAjoutFlux;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DaoFlux;
-import rssagregator.services.SemaphoreCentre;
-import rssagregator.services.crud.AbstrServiceCRUD;
-import rssagregator.services.crud.ServiceCRUDFactory;
-import rssagregator.utils.ThreadUtils;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Journal;
+import rssaggregator.beans.exception.AucunFluxDecouvert;
+import rssaggregator.beans.incident.Incidable;
+import rssaggregator.beans.incident.IncidentDecouverteRSS;
+import rssaggregator.beans.incident.IncidentFactory;
+import rssaggregator.beans.incident.NotificationAjoutFlux;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DaoFlux;
+import rssaggregator.services.SemaphoreCentre;
+import rssaggregator.services.crud.AbstrServiceCRUD;
+import rssaggregator.services.crud.ServiceCRUDFactory;
+import rssaggregator.utils.ThreadUtils;
 
 /**
  * Cette tâche permet de parcourir la page présentant les flux RSS d'un journal afin de découvrir les flux. Chacun des

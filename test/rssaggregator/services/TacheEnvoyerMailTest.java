@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
-import rssagregator.services.tache.TacheFactory;
-import rssagregator.services.tache.TacheEnvoyerMail;
+import rssaggregator.services.tache.TacheFactory;
+import rssaggregator.services.tache.TacheEnvoyerMail;
 import javax.mail.internet.InternetAddress;
 import org.junit.After;
 import org.junit.AfterClass;

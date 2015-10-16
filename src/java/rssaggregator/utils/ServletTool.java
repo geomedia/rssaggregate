@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.utils;
+package rssaggregator.utils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,14 +10,14 @@ import java.util.List;
 import java.util.Map;
 import javax.persistence.NoResultException;
 import javax.servlet.http.HttpServletRequest;
-import rssagregator.beans.AbstrObservableBeans;
-import rssagregator.beans.Flux;
-import rssagregator.beans.form.AbstrForm;
-import rssagregator.beans.form.FORMFactory;
-import rssagregator.dao.AbstrDao;
-import rssagregator.dao.DAOFactory;
-import rssagregator.services.crud.AbstrServiceCRUD;
-import rssagregator.services.crud.ServiceCRUDFactory;
+import rssaggregator.beans.AbstrObservableBeans;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.form.AbstrForm;
+import rssaggregator.beans.form.FORMFactory;
+import rssaggregator.dao.AbstrDao;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.services.crud.AbstrServiceCRUD;
+import rssaggregator.services.crud.ServiceCRUDFactory;
 
 /**
  * Une série de methode static pouvant être utilisée dans les Servlet du projet. Permet de gérer les action de base sur un beans en s'appuyant sur les serviceCRUD et les dao. 
@@ -182,7 +182,7 @@ public class ServletTool {
 //        try {
 //            
 //            FluxMBean cast = (FluxMBean) o;
-//            ObjectName name = new ObjectName("rssagregator.beans:type=BeanIfs"+cast.getID());
+//            ObjectName name = new ObjectName("rssaggregator.beans:type=BeanIfs"+cast.getID());
 //            mbs.registerMBean(cast, name);
 //            
 //        } catch (MalformedObjectNameException ex) {

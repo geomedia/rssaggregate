@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import java.io.Serializable;
 import java.security.MessageDigest;
@@ -23,10 +23,10 @@ import org.apache.log4j.Logger;
 import org.apache.tomcat.util.buf.HexUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DaoItem;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DaoItem;
 
 /**
  *

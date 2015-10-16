@@ -2,11 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.servlet.recupParamList;
+package rssaggregator.servlet.recupParamList;
 
 import javax.servlet.http.HttpServletRequest;
-import rssagregator.dao.SearchFilter;
-import rssagregator.dao.SearchFiltersList;
+import rssaggregator.dao.SearchFilter;
+import rssaggregator.dao.SearchFiltersList;
 
 /**
  * L'objectif de ce type de class est de récupérer les paramettres dans la HttpServletRequest afin de construire les

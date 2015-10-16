@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -11,20 +11,20 @@ import java.util.Map;
 import javax.persistence.LockModeType;
 import javax.persistence.Query;
 import org.joda.time.DateTime;
-import rssagregator.beans.Flux;
-import rssagregator.beans.FluxPeriodeCaptation;
-import rssagregator.beans.Item;
-import rssagregator.beans.POJOCompteItem;
-import rssagregator.beans.incident.AnomalieCollecte;
-import rssagregator.beans.incident.IncidentFactory;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOIncident;
-import rssagregator.dao.DaoFlux;
-import rssagregator.dao.DaoItem;
-import rssagregator.services.ServiceCollecteur;
-import rssagregator.services.crud.ServiceCRUDFactory;
-import rssagregator.services.crud.ServiceCrudIncident;
-import rssagregator.utils.ThreadUtils;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.FluxPeriodeCaptation;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.POJOCompteItem;
+import rssaggregator.beans.incident.AnomalieCollecte;
+import rssaggregator.beans.incident.IncidentFactory;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOIncident;
+import rssaggregator.dao.DaoFlux;
+import rssaggregator.dao.DaoItem;
+import rssaggregator.services.ServiceCollecteur;
+import rssaggregator.services.crud.ServiceCRUDFactory;
+import rssaggregator.services.crud.ServiceCrudIncident;
+import rssaggregator.utils.ThreadUtils;
 
 /**
  * <p>Cette tâche effectue différents calculs observant le nombre d'item /jour capturés par un flux. Les calculs sont

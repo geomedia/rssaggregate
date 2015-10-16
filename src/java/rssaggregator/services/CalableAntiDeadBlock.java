@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
-import rssagregator.services.tache.AbstrTache;
+import rssaggregator.services.tache.AbstrTache;
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.Callable;
-import rssagregator.utils.ThreadUtils;
+import rssaggregator.utils.ThreadUtils;
 
 /**
  * Callable lancé dans chaque service afin de vérifier que les tâches du service ne dépassent pas leurs temps maximal

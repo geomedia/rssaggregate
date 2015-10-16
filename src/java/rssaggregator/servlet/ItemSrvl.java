@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.servlet;
+package rssaggregator.servlet;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,21 +21,21 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import rssagregator.beans.Flux;
-import rssagregator.beans.FluxType;
-import rssagregator.beans.Item;
-import rssagregator.beans.POJOCompteurFluxItem;
-import rssagregator.beans.form.AbstrForm;
-import rssagregator.beans.form.FORMFactory;
-import rssagregator.beans.form.ItemForm;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOGenerique;
-import rssagregator.dao.DaoFlux;
-import rssagregator.dao.DaoItem;
-import rssagregator.dao.SearchFilter;
-import rssagregator.dao.SearchFiltersList;
-import rssagregator.services.CSVMacker;
-import rssagregator.utils.ServletTool;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.FluxType;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.POJOCompteurFluxItem;
+import rssaggregator.beans.form.AbstrForm;
+import rssaggregator.beans.form.FORMFactory;
+import rssaggregator.beans.form.ItemForm;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOGenerique;
+import rssaggregator.dao.DaoFlux;
+import rssaggregator.dao.DaoItem;
+import rssaggregator.dao.SearchFilter;
+import rssaggregator.dao.SearchFiltersList;
+import rssaggregator.services.CSVMacker;
+import rssaggregator.utils.ServletTool;
 
 /**
  * La servlet permettant de gérer l'acces des utilisateurs aux items. Elle est aussi utilisée dans le processus de

@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import java.util.Comparator;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import rssagregator.beans.ContentRSS;
-//import rssagregator.services.tache.TacheRaffiner;
+import rssaggregator.beans.ContentRSS;
+//import rssaggregator.services.tache.TacheRaffiner;
 
 /**
  * <strong> N'est plus utilisé</strong>

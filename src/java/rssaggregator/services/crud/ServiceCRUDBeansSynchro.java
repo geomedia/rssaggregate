@@ -2,14 +2,14 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.crud;
+package rssaggregator.services.crud;
 
 import java.util.List;
 import javax.persistence.EntityManager;
-import rssagregator.beans.exception.ArgumentIncorrect;
-import rssagregator.dao.DAOFactory;
-import rssagregator.utils.ExceptionTool;
-import rssagregator.utils.TransactionTool;
+import rssaggregator.beans.exception.ArgumentIncorrect;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.utils.ExceptionTool;
+import rssaggregator.utils.TransactionTool;
 
 /**
  * Un certain nombre de beans doivent être synchronisé. Exemple les journaux. Les utilisateur etc. Le traitement des

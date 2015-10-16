@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.utils.comparator;
+package rssaggregator.utils.comparator;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,7 +18,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import rssagregator.services.CSVMackerTest;
+import rssaggregator.services.CSVMackerTest;
 
 /**
  *

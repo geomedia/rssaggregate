@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
 import java.util.Map;
 import java.util.concurrent.ExecutorService;
@@ -15,8 +15,8 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
 
 /**
  *

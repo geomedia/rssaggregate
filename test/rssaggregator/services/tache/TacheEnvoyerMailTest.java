@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import java.util.Properties;
 import java.util.concurrent.ExecutorService;
@@ -17,7 +17,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import rssagregator.services.ServiceMailNotifier;
+import rssaggregator.services.ServiceMailNotifier;
 import testgeneraux.DemarrageTest;
 import javax.mail.Message;
 import javax.mail.MessagingException;

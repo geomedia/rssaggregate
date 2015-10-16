@@ -2,18 +2,18 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import java.util.List;
 import java.util.Observer;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import org.apache.velocity.VelocityContext;
-import rssagregator.beans.incident.CollecteIncident;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOIncident;
-import rssagregator.services.ServiceMailNotifier;
-import rssagregator.services.mailtemplate.VelocityTemplateLoad;
+import rssaggregator.beans.incident.CollecteIncident;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOIncident;
+import rssaggregator.services.ServiceMailNotifier;
+import rssaggregator.services.mailtemplate.VelocityTemplateLoad;
 
 /**
  * Cette tâche est lancée toute les jours. Elle doit envoyer un mail récapitulant tout les incidents pour lesquel l'administrateur doit intervenir. CAD : <ul>
@@ -55,7 +55,7 @@ public class TacheVerifFluxNotificationMail extends TacheImpl<TacheVerifFluxNoti
             vCtxt.put("titreMail", "Récapitulatif des incidents et évènements");
             vCtxt.put("descMail", "Ce mail est un récapitulatif journalier des incidents et évènements survenus sur le serveur. Il est envoyé toutes les "+this.printSchedule()+ ". Veillez a résondre chacun des cas. Lorsque votre travail de maintenance sera terminé, vous pouvez clore manuellement les incidents afin d'empêcher que ceux-ci se renotifient") ;
             
-            String txtMail = VelocityTemplateLoad.rendu("rssagregator/services/mailtemplate/MailAlertTemplate.vsl", vCtxt);
+            String txtMail = VelocityTemplateLoad.rendu("rssaggregator/services/mailtemplate/MailAlertTemplate.vsl", vCtxt);
             mailSendTask.setContent(txtMail);
             
             ServiceMailNotifier.getInstance().getTacheProducteur().produireMaintenant(mailSendTask);

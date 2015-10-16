@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans;
+package rssaggregator.beans;
 
 import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -28,10 +28,10 @@ import org.joda.time.Duration;
 import org.joda.time.Interval;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
-import rssagregator.beans.exception.IncompleteBeanExeption;
-import rssagregator.beans.incident.AbstrIncident;
-import rssagregator.beans.incident.CollecteIncident;
-import rssagregator.beans.traitement.ComportementCollecte;
+import rssaggregator.beans.exception.IncompleteBeanExeption;
+import rssaggregator.beans.incident.AbstrIncident;
+import rssaggregator.beans.incident.CollecteIncident;
+import rssaggregator.beans.traitement.ComportementCollecte;
 
 /**
  * Cette entitée permet de stoquer un intervale de date permettant de renseigner la ou les périodes pendant lesquel le

@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.incident;
+package rssaggregator.beans.incident;
 
-import rssagregator.services.tache.TacheRecupCallable;
+import rssaggregator.services.tache.TacheRecupCallable;
 
 /**
  * Interface permettant de définir les tâches pouvant générer des incidents, on parle alors de tâche incidable.

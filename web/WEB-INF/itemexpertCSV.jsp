@@ -3,17 +3,17 @@
     Created on : 25 juin 2013, 17:05:15
     Author     : clem
 --%>
-<%@page import="rssagregator.utils.CsvComparator1"%>
+<%@page import="rssaggregator.utils.CsvComparator1"%>
 <%@page import="java.util.Comparator"%>
 <%@page import="java.util.Collections"%>
-<%@page import="rssagregator.beans.Flux"%>
+<%@page import="rssaggregator.beans.Flux"%>
 <%@page import="org.joda.time.format.ISODateTimeFormat"%>
 <%@page import="org.joda.time.format.DateTimeFormatter"%>
 <%@page import="org.joda.time.format.DateTimeFormat"%>
 <%@page import="org.joda.time.DateTime"%>
 <%@page contentType="document/csv" pageEncoding="UTF-8"%>
 <%@page import="java.io.StringWriter"%>
-<%@page import="rssagregator.beans.Item"%>
+<%@page import="rssaggregator.beans.Item"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
 <%@page import="au.com.bytecode.opencsv.CSVWriter"%>

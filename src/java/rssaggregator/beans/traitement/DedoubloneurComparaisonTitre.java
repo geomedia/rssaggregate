@@ -2,7 +2,7 @@
 // * To change this template, choose Tools | Templates
 // * and open the template in the editor.
 // */
-//package rssagregator.beans.traitement;
+//package rssaggregator.beans.traitement;
 //
 //import java.util.List;
 //import java.util.ListIterator;
@@ -11,14 +11,14 @@
 //import javax.persistence.Entity;
 //import javax.persistence.Transient;
 //import org.jsoup.Jsoup;
-//import rssagregator.beans.DonneeBrute;
-//import rssagregator.beans.Flux;
-//import rssagregator.beans.Item;
-//import rssagregator.beans.Journal;
-//import rssagregator.beans.exception.ArgumentIncorrect;
-//import rssagregator.dao.DAOFactory;
-//import rssagregator.dao.DaoItem;
-//import rssagregator.services.ServiceCollecteur;
+//import rssaggregator.beans.DonneeBrute;
+//import rssaggregator.beans.Flux;
+//import rssaggregator.beans.Item;
+//import rssaggregator.beans.Journal;
+//import rssaggregator.beans.exception.ArgumentIncorrect;
+//import rssaggregator.dao.DAOFactory;
+//import rssaggregator.dao.DaoItem;
+//import rssaggregator.services.ServiceCollecteur;
 //
 ///**
 // * Ce dedoublonneur est utilisé en second Après de {@link Dedoubloneur}, il permet de compléter le traitement. Ce

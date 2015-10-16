@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.crud;
+package rssaggregator.services.crud;
 
-import rssagregator.beans.exception.HasChildren;
-import rssagregator.beans.traitement.ComportementCollecte;
-import rssagregator.dao.DAOComportementCollecte;
-import rssagregator.dao.DAOFactory;
+import rssaggregator.beans.exception.HasChildren;
+import rssaggregator.beans.traitement.ComportementCollecte;
+import rssaggregator.dao.DAOComportementCollecte;
+import rssaggregator.dao.DAOFactory;
 
 /**
  *

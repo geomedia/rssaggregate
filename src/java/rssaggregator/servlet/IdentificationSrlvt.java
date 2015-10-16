@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.servlet;
+package rssaggregator.servlet;
 
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
@@ -14,10 +14,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import rssagregator.beans.UserAccount;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOUser;
-import rssagregator.utils.ServletTool;
+import rssaggregator.beans.UserAccount;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOUser;
+import rssaggregator.utils.ServletTool;
 
 /**
  *  Cette servlet permet à l'utilisateur de s'identifier et de se déconnecter (détruire sa session)

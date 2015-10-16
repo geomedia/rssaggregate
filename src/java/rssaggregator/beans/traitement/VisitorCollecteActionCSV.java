@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -13,8 +13,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
 
 /**
  * Objet permettant de collecter les items d'un flux depuis un CSV

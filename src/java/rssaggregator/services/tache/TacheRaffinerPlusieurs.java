@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import java.util.List;
-import rssagregator.beans.DoublonDe;
-import rssagregator.beans.Item;
-import rssagregator.beans.traitement.AbstrRaffineur;
-import rssagregator.beans.traitement.ComportementCollecte;
+import rssaggregator.beans.DoublonDe;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.traitement.AbstrRaffineur;
+import rssaggregator.beans.traitement.ComportementCollecte;
 
 /**
  *

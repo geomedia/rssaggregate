@@ -15,27 +15,27 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <!--<non-jta-data-source>postconf</non-jta-data-source>-->
     <!--<non-jta-data-source/>-->
-<!--    <class>rssagregator.beans.Journal</class>
-    <class>rssagregator.beans.incident.CollecteIncident</class>
-    <class>rssagregator.beans.traitement.MediatorCollecteAction</class>
-    <class>rssagregator.beans.traitement.AbstrParseur</class>
-    <class>rssagregator.beans.Flux</class>
-    <class>rssagregator.beans.Item</class>
-    <class>rssagregator.beans.FluxType</class>
-    <class>rssagregator.beans.traitement.AbstrRequesteur</class>
-    <class>rssagregator.beans.traitement.AbstrDedoublonneur</class>
-    <class>rssagregator.beans.FluxPeriodeCaptation</class>
-    <class>rssagregator.beans.ItemRaffinee</class>
-        <class>rssagregator.beans.Flurssagregator.beans.Flux</class>
-    <class>rssagregator.beans.Flurssagregator.beans.Item</class>-->
+<!--    <class>rssaggregator.beans.Journal</class>
+    <class>rssaggregator.beans.incident.CollecteIncident</class>
+    <class>rssaggregator.beans.traitement.MediatorCollecteAction</class>
+    <class>rssaggregator.beans.traitement.AbstrParseur</class>
+    <class>rssaggregator.beans.Flux</class>
+    <class>rssaggregator.beans.Item</class>
+    <class>rssaggregator.beans.FluxType</class>
+    <class>rssaggregator.beans.traitement.AbstrRequesteur</class>
+    <class>rssaggregator.beans.traitement.AbstrDedoublonneur</class>
+    <class>rssaggregator.beans.FluxPeriodeCaptation</class>
+    <class>rssaggregator.beans.ItemRaffinee</class>
+        <class>rssaggregator.beans.Flurssaggregator.beans.Flux</class>
+    <class>rssaggregator.beans.Flurssaggregator.beans.Item</class>-->
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <!--<shared-cache-mode>ALL</shared-cache-mode>-->
     <shared-cache-mode>NONE</shared-cache-mode>
     <!--=============================================================================================================-->
     <!--.................................PARAMETRES DE CONNECTION A POSTGRES SQL.....................................-->
     <!--=============================================================================================================-->
-    <!--        <class>rssagregator.Truc</class>
-        <class>rssagregator.services.ServiceSynchro</class>-->
+    <!--        <class>rssaggregator.Truc</class>
+        <class>rssaggregator.services.ServiceSynchro</class>-->
 
     <properties>
       <property name="eclipselink.weaving" value="false"/>
@@ -79,25 +79,25 @@
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <non-jta-data-source>postconf</non-jta-data-source>
         <non-jta-data-source/>
-        <class>rssagregator.beans.Journal</class>
-        <class>rssagregator.beans.incident.CollecteIncident</class>
-        <class>rssagregator.beans.traitement.MediatorCollecteAction</class>
-        <class>rssagregator.beans.traitement.AbstrParseur</class>
-        <class>rssagregator.beans.Flux</class>
-        <class>rssagregator.beans.Item</class>
-        <class>rssagregator.beans.FluxType</class>
-        <class>rssagregator.beans.traitement.AbstrRequesteur</class>
-        <class>rssagregator.beans.traitement.AbstrDedoublonneur</class>
-        <class>rssagregator.beans.FluxPeriodeCaptation</class>
+        <class>rssaggregator.beans.Journal</class>
+        <class>rssaggregator.beans.incident.CollecteIncident</class>
+        <class>rssaggregator.beans.traitement.MediatorCollecteAction</class>
+        <class>rssaggregator.beans.traitement.AbstrParseur</class>
+        <class>rssaggregator.beans.Flux</class>
+        <class>rssaggregator.beans.Item</class>
+        <class>rssaggregator.beans.FluxType</class>
+        <class>rssaggregator.beans.traitement.AbstrRequesteur</class>
+        <class>rssaggregator.beans.traitement.AbstrDedoublonneur</class>
+        <class>rssaggregator.beans.FluxPeriodeCaptation</class>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <shared-cache-mode>ALL</shared-cache-mode>
         =============================================================================================================
         .................................PARAMETRES DE CONNECTION A POSTGRES SQL.....................................
         =============================================================================================================
-                <class>rssagregator.Truc</class>
-        <class>rssagregator.services.ServiceSynchro</class>
-        <class>rssagregator.beans.Flurssagregator.beans.Flux</class>
-        <class>rssagregator.beans.Flurssagregator.beans.Item</class>
+                <class>rssaggregator.Truc</class>
+        <class>rssaggregator.services.ServiceSynchro</class>
+        <class>rssaggregator.beans.Flurssaggregator.beans.Flux</class>
+        <class>rssaggregator.beans.Flurssaggregator.beans.Item</class>
     
         <properties>
             <property name="eclipselink.weaving" value="false"/>

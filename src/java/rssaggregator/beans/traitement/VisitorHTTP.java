@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -12,9 +12,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import javax.persistence.Transient;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
-import rssagregator.services.tache.TacheRecupCallable;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
+import rssaggregator.services.tache.TacheRecupCallable;
 
 /**
  * Objet permettan de collecter un flux depuis son flux XML. Utilisé par la tache {@link TacheRecupCallable}.

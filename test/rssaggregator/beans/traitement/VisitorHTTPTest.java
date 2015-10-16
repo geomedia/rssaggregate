@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import org.apache.commons.math3.random.ISAACRandom;
 import org.junit.After;
@@ -11,7 +11,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import rssagregator.beans.Flux;
+import rssaggregator.beans.Flux;
 
 /**
  *

@@ -7,13 +7,13 @@
 <%@page import="org.joda.time.format.DateTimeFormatter"%>
 <%@page import="org.joda.time.format.DateTimeFormat"%>
 <%@page import="org.joda.time.format.DateTimeFormat"%>
-<%@page import="rssagregator.dao.SearchFiltersList"%>
-<%@page import="rssagregator.dao.SearchFilter"%>
+<%@page import="rssaggregator.dao.SearchFiltersList"%>
+<%@page import="rssaggregator.dao.SearchFilter"%>
 <%@page import="java.util.Map"%>
 <%@page import="java.util.Map"%>
 <%@page import="java.util.HashMap"%>
-<%@page import="rssagregator.beans.Flux"%>
-<%@page import="rssagregator.beans.Item"%>
+<%@page import="rssaggregator.beans.Flux"%>
+<%@page import="rssaggregator.beans.Item"%>
 <%@page import="java.util.List"%>
 <%@page import="java.io.CharArrayReader"%>
 <%@page import="java.io.ByteArrayOutputStream"%>

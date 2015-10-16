@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.utils.comparator;
+package rssaggregator.utils.comparator;
 
 import com.google.common.collect.Ordering;
 import java.io.File;

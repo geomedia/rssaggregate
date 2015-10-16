@@ -1,9 +1,9 @@
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import java.lang.reflect.Field;
 import java.util.List;
 import java.util.Vector;
-import rssagregator.beans.Item;
+import rssaggregator.beans.Item;
 
 public class MediatorTraitementRafinage {
 

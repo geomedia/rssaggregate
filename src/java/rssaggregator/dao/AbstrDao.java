@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.dao;
+package rssaggregator.dao;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -19,7 +19,7 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Join;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
-import rssagregator.beans.Journal;
+import rssaggregator.beans.Journal;
 
 /**
  * <p>Toutes les DAO doivent hériter de cette class abstraite. Elle définit les actions de base (modifier, créer,

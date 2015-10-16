@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.mailtemplate;
+package rssaggregator.services.mailtemplate;
 
 import java.io.IOException;
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
-import rssagregator.beans.incident.CollecteIncident;
+import rssaggregator.beans.incident.CollecteIncident;
 
 /**
  * Cette classe est utilisée pour générer de corps des mail de notification. Ce

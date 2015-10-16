@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.form;
+package rssaggregator.beans.form;
 
 import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
@@ -10,9 +10,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import rssagregator.beans.UserAccount;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOUser;
+import rssaggregator.beans.UserAccount;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOUser;
 
 /**
  * Class permettant de valider et binder les données issues de requêtes dans un bean <strong>UserAccount</strong>

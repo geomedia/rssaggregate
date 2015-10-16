@@ -1,4 +1,4 @@
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import com.sun.syndication.io.FeedException;
 import java.io.IOException;
@@ -33,11 +33,11 @@ import javax.xml.bind.annotation.XmlTransient;
 import javax.xml.ws.http.HTTPException;
 import org.apache.poi.util.Beta;
 import org.reflections.Reflections;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
-import rssagregator.beans.form.ComportementCollecteForm;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DaoItem;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.form.ComportementCollecteForm;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DaoItem;
 
 /**
  * <p>Beans Permettant de stocker le comportement de collecte lié a un flux. Dans la mesure du possible, on essaiera de
@@ -120,7 +120,7 @@ public class ComportementCollecte implements Serializable, Cloneable {
     static {
         
         // Découverte par réflexivité de l'ensemble des class de type requesteur. 
-        Reflections reflections = new Reflections("rssagregator.beans.traitement");
+        Reflections reflections = new Reflections("rssaggregator.beans.traitement");
         requesteurClass = reflections.getSubTypesOf(AbstrRaffineur.class);
     }
     

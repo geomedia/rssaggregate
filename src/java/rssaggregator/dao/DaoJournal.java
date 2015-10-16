@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.dao;
+package rssaggregator.dao;
 
 import java.util.List;
 import java.util.logging.Level;
@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 import javax.persistence.NoResultException;
 import javax.persistence.NonUniqueResultException;
 import javax.persistence.Query;
-import rssagregator.beans.Journal;
+import rssaggregator.beans.Journal;
 
 /**
  * @author Clément RILLON

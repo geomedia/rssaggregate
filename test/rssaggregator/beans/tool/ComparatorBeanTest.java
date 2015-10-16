@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.tool;
+package rssaggregator.beans.tool;
 
-import rssagregator.utils.comparator.ComparatorBean;
+import rssaggregator.utils.comparator.ComparatorBean;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -14,8 +14,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import rssagregator.beans.Bean;
-import rssagregator.beans.Flux;
+import rssaggregator.beans.Bean;
+import rssaggregator.beans.Flux;
 
 /**
  *

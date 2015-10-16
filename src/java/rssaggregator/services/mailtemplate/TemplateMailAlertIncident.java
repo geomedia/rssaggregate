@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.mailtemplate;
+package rssaggregator.services.mailtemplate;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,12 +13,12 @@ import java.util.logging.Logger;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
-import rssagregator.beans.Flux;
-import rssagregator.beans.incident.AbstrIncident;
-import rssagregator.beans.incident.AnomalieCollecte;
-import rssagregator.beans.incident.CollecteIncident;
-import rssagregator.beans.incident.Notification;
-import rssagregator.beans.incident.NotificationAjoutFlux;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.incident.AbstrIncident;
+import rssaggregator.beans.incident.AnomalieCollecte;
+import rssaggregator.beans.incident.CollecteIncident;
+import rssaggregator.beans.incident.Notification;
+import rssaggregator.beans.incident.NotificationAjoutFlux;
 
 /**
  * Une template de mail pour réaliser le corps des mail d'alert.

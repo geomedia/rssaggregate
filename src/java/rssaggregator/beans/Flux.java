@@ -1,4 +1,4 @@
-package rssagregator.beans;
+package rssaggregator.beans;
 
 import com.sun.syndication.feed.opml.Attribute;
 import com.sun.syndication.feed.opml.Opml;
@@ -38,14 +38,14 @@ import org.eclipse.persistence.descriptors.DescriptorEventAdapter;
 import org.joda.time.DateTime;
 import org.joda.time.Duration;
 import org.joda.time.Interval;
-import rssagregator.beans.exception.DonneeInterneCoherente;
-import rssagregator.beans.incident.AbstrIncident;
-import rssagregator.beans.incident.CollecteIncident;
-import rssagregator.beans.traitement.ComportementVisitor;
-import rssagregator.beans.traitement.ComportementCollecte;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DaoFlux;
-//import rssagregator.services.TacheVerifComportementFLux;
+import rssaggregator.beans.exception.DonneeInterneCoherente;
+import rssaggregator.beans.incident.AbstrIncident;
+import rssaggregator.beans.incident.CollecteIncident;
+import rssaggregator.beans.traitement.ComportementVisitor;
+import rssaggregator.beans.traitement.ComportementCollecte;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DaoFlux;
+//import rssaggregator.services.TacheVerifComportementFLux;
 
 /**
  * Une des entités les plus importantes... Il s'agit d'un flux de syndication (RSS ATOM...). Un flux appartient est lié

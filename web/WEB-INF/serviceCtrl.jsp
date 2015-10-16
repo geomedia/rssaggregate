@@ -4,7 +4,7 @@
     Author     : clem
 --%>
 
-<%@page import="rssagregator.services.tache.AbstrTache"%>
+<%@page import="rssaggregator.services.tache.AbstrTache"%>
 <%@page import="org.joda.time.DateTime"%>
 <%@page import="org.joda.time.Duration"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

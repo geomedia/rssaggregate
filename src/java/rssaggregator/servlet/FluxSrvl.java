@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.servlet;
+package rssaggregator.servlet;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ser.FilterProvider;
@@ -30,27 +30,27 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.servlet.http.Part;
 import javax.xml.ws.http.HTTPException;
-import rssagregator.beans.Flux;
-import rssagregator.beans.FluxPeriodeCaptation;
-import rssagregator.beans.FluxType;
-import rssagregator.beans.Item;
-import rssagregator.beans.Journal;
-import rssagregator.beans.UserAccount;
-import rssagregator.beans.form.ParseCsvForm;
-import rssagregator.beans.incident.CollecteIncident;
-import rssagregator.beans.traitement.CSVParse;
-import rssagregator.beans.traitement.VisitorCollecteActionCSV;
-import rssagregator.beans.traitement.ComportementCollecte;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOGenerique;
-import rssagregator.dao.DaoFlux;
-import rssagregator.dao.DaoJournal;
-import rssagregator.services.crud.ServiceCRUDFactory;
-import rssagregator.services.ServiceCollecteur;
-import rssagregator.services.tache.TacheRecupCallable;
-import rssagregator.services.crud.ServiceCRUDFlux;
-import rssagregator.utils.PropertyLoader;
-import rssagregator.utils.ServletTool;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.FluxPeriodeCaptation;
+import rssaggregator.beans.FluxType;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.Journal;
+import rssaggregator.beans.UserAccount;
+import rssaggregator.beans.form.ParseCsvForm;
+import rssaggregator.beans.incident.CollecteIncident;
+import rssaggregator.beans.traitement.CSVParse;
+import rssaggregator.beans.traitement.VisitorCollecteActionCSV;
+import rssaggregator.beans.traitement.ComportementCollecte;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOGenerique;
+import rssaggregator.dao.DaoFlux;
+import rssaggregator.dao.DaoJournal;
+import rssaggregator.services.crud.ServiceCRUDFactory;
+import rssaggregator.services.ServiceCollecteur;
+import rssaggregator.services.tache.TacheRecupCallable;
+import rssaggregator.services.crud.ServiceCRUDFlux;
+import rssaggregator.utils.PropertyLoader;
+import rssaggregator.utils.ServletTool;
 
 /**
  *

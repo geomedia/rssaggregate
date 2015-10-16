@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.servlet;
+package rssaggregator.servlet;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,18 +18,18 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import rssagregator.beans.Flux;
-import rssagregator.beans.form.AbstrForm;
-import rssagregator.beans.form.FORMFactory;
-import rssagregator.beans.incident.AbstrIncident;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOIncident;
-import rssagregator.dao.DaoFlux;
-import rssagregator.services.crud.AbstrServiceCRUD;
-import rssagregator.services.crud.ServiceCRUDFactory;
-import rssagregator.services.crud.ServiceCrudIncident;
-import rssagregator.utils.ServletTool;
-import static rssagregator.utils.ServletTool.redir;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.form.AbstrForm;
+import rssaggregator.beans.form.FORMFactory;
+import rssaggregator.beans.incident.AbstrIncident;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOIncident;
+import rssaggregator.dao.DaoFlux;
+import rssaggregator.services.crud.AbstrServiceCRUD;
+import rssaggregator.services.crud.ServiceCRUDFactory;
+import rssaggregator.services.crud.ServiceCrudIncident;
+import rssaggregator.utils.ServletTool;
+import static rssaggregator.utils.ServletTool.redir;
 
 /**
  * Gère les action : <ul>
@@ -148,7 +148,7 @@ public class IncidentsSrvl extends HttpServlet {
                 try {
       
                     
-                    c = Class.forName("rssagregator.beans.incident." + request.getParameter("type"));
+                    c = Class.forName("rssaggregator.beans.incident." + request.getParameter("type"));
                     dao = (DAOIncident) DAOFactory.getInstance().getDaoFromType(c);
                     if (!AbstrIncident.class.isAssignableFrom(c)) {
                         throw new Exception("non");
@@ -170,7 +170,7 @@ public class IncidentsSrvl extends HttpServlet {
 //            //--------------------------------------------ACTION : MOD-------------------------------------
         } else if (action.equals("mod")) {
             try {
-                Class c = Class.forName("rssagregator.beans.incident." + request.getParameter("type"));
+                Class c = Class.forName("rssaggregator.beans.incident." + request.getParameter("type"));
                 ServletTool.actionMOD(request, ATT_OBJ, ATT_FORM, c, false);
                 if (!AbstrIncident.class.isAssignableFrom(c)) {
                     throw new Exception("non");
@@ -190,13 +190,13 @@ public class IncidentsSrvl extends HttpServlet {
             // Récupération le type d'incident
             String type = request.getParameter("type");
             try {
-                Class c = Class.forName("rssagregator.beans.incident." + request.getParameter("type"));
+                Class c = Class.forName("rssaggregator.beans.incident." + request.getParameter("type"));
                 if (!AbstrIncident.class.isAssignableFrom(c)) {
                     throw new Exception("non");
                 }
                 ServletTool.actionREAD(request, c, ATT_OBJ);
 
-            } //               Class c = Class.forName("rssagregator.beans.incident.CollecteIncident");
+            } //               Class c = Class.forName("rssaggregator.beans.incident.CollecteIncident");
             catch (ClassNotFoundException ex) {
                 logger.debug("Exeption ", ex);
                 redir(request, ATT_SERV_NAME + "/read?id=" + request.getParameter("id"), "L'entité demandée n'existe pas !", Boolean.TRUE);
@@ -283,7 +283,7 @@ public class IncidentsSrvl extends HttpServlet {
     }
 
 //    public static void main(String[] args) throws ClassNotFoundException {
-//        Class c = Class.forName("rssagregator.beans.incident.FluxIncident");
+//        Class c = Class.forName("rssaggregator.beans.incident.FluxIncident");
 //    }
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**

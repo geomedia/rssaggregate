@@ -3,7 +3,7 @@
     Created on : 21 oct. 2013, 12:54:32
     Author     : clem
 --%>
-<%@page import="rssagregator.beans.Journal"%>
+<%@page import="rssaggregator.beans.Journal"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
 <%@page import="au.com.bytecode.opencsv.CSVWriter"%>

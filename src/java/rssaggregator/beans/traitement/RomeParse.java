@@ -1,4 +1,4 @@
-package rssagregator.beans.traitement;
+package rssaggregator.beans.traitement;
 
 import com.sun.syndication.feed.synd.SyndCategoryImpl;
 import com.sun.syndication.feed.synd.SyndContentImpl;
@@ -16,7 +16,7 @@ import java.util.Iterator;
 import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.Transient;
-import rssagregator.beans.Item;
+import rssaggregator.beans.Item;
 
 /**
  * test

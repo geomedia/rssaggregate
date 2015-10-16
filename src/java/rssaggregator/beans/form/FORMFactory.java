@@ -2,18 +2,18 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.form;
+package rssaggregator.beans.form;
 
-import rssagregator.beans.Conf;
-import rssagregator.beans.Flux;
-import rssagregator.beans.FluxType;
-import rssagregator.beans.Item;
-import rssagregator.beans.Journal;
-import rssagregator.beans.UserAccount;
-import rssagregator.beans.incident.AbstrIncident;
-import rssagregator.beans.incident.CollecteIncident;
-import rssagregator.beans.traitement.ComportementCollecte;
-import rssagregator.utils.ServletTool;
+import rssaggregator.beans.Conf;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.FluxType;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.Journal;
+import rssaggregator.beans.UserAccount;
+import rssaggregator.beans.incident.AbstrIncident;
+import rssaggregator.beans.incident.CollecteIncident;
+import rssaggregator.beans.traitement.ComportementCollecte;
+import rssaggregator.utils.ServletTool;
 
 /**
  * <p>Une factory de formulaire. Permet notamment de simplifier l'instanciation des méthodes générique de la Classe

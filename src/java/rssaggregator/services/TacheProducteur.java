@@ -2,15 +2,15 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import rssagregator.services.tache.AbstrTache;
-import rssagregator.utils.ThreadUtils;
+import rssaggregator.services.tache.AbstrTache;
+import rssaggregator.utils.ThreadUtils;
 
 /**
  *

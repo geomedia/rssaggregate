@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
 import au.com.bytecode.opencsv.CSVWriter;
 import java.io.File;
@@ -21,15 +21,15 @@ import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 import org.jsoup.Jsoup;
-import rssagregator.beans.Conf;
-import rssagregator.beans.ContentRSS;
-import rssagregator.beans.DoublonDe;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Item;
-import rssagregator.beans.traitement.AbstrRaffineur;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.SearchFiltersList;
-import rssagregator.utils.comparator.FileNameComparator;
+import rssaggregator.beans.Conf;
+import rssaggregator.beans.ContentRSS;
+import rssaggregator.beans.DoublonDe;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.traitement.AbstrRaffineur;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.SearchFiltersList;
+import rssaggregator.utils.comparator.FileNameComparator;
 
 /**
  *
@@ -337,7 +337,7 @@ public class CSVMacker implements Callable<Object> {
      */
     private void createUniqRep() {
         
-        String repName = "EXPORT--" + rssagregator.utils.FileUtils.contructMailFileName() + "/";
+        String repName = "EXPORT--" + rssaggregator.utils.FileUtils.contructMailFileName() + "/";
         exportPath = webDir + "upload/" + repName;
         System.out.println("Path " + exportPath);
         new File(exportPath).mkdir();

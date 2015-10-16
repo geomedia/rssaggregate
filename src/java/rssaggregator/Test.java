@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator;
+package rssaggregator;
 
 import org.joda.time.DateTime;
 import org.joda.time.chrono.IslamicChronology;

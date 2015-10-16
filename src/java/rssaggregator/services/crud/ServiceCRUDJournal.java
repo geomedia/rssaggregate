@@ -2,18 +2,18 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.crud;
+package rssaggregator.services.crud;
 
 import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.EntityManager;
-import rssagregator.beans.Flux;
-import rssagregator.beans.Journal;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DaoFlux;
-import rssagregator.dao.DaoJournal;
-import rssagregator.services.ServiceCollecteur;
-import rssagregator.utils.ExceptionTool;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.Journal;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DaoFlux;
+import rssaggregator.dao.DaoJournal;
+import rssaggregator.services.ServiceCollecteur;
+import rssaggregator.utils.ExceptionTool;
 
 /**
  * Le service Crud Journal permet de gérer la création modification et suppression de journaux. Les journaux sont

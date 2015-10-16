@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.crud;
+package rssaggregator.services.crud;
 
 import java.util.Collections;
 import java.util.Date;
@@ -10,14 +10,14 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import org.joda.time.DateTime;
-import rssagregator.beans.Flux;
-import rssagregator.beans.incident.AbstrIncident;
-import rssagregator.beans.incident.AnomalieCollecte;
-import rssagregator.beans.incident.CollecteIncident;
-import rssagregator.beans.incident.IncidentFactory;
-import rssagregator.beans.incident.PeriodeAnormale;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOIncident;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.incident.AbstrIncident;
+import rssaggregator.beans.incident.AnomalieCollecte;
+import rssaggregator.beans.incident.CollecteIncident;
+import rssaggregator.beans.incident.IncidentFactory;
+import rssaggregator.beans.incident.PeriodeAnormale;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOIncident;
 
 /**
  *

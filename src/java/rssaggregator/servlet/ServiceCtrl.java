@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.servlet;
+package rssaggregator.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -15,7 +15,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import rssagregator.services.AbstrService;
+import rssaggregator.services.AbstrService;
 
 /**
  *Servlet point d'acces permettant d'obtenir des information sur les services, notamment les taches schedulée. 
@@ -43,7 +43,7 @@ public class ServiceCtrl extends HttpServlet {
         String servicename = request.getParameter("servicename");
         Class c = null;
         try {
-        c = Class.forName("rssagregator.services." + servicename);            
+        c = Class.forName("rssaggregator.services." + servicename);            
         } catch (Exception e) {
             logger.debug("Impossible de récupérer la class " , e);
         }

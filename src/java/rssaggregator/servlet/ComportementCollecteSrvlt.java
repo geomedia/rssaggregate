@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.servlet;
+package rssaggregator.servlet;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -15,12 +15,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.reflections.Reflections;
-import rssagregator.beans.form.ComportementCollecteForm;
-import rssagregator.beans.traitement.AbstrRaffineur;
-import rssagregator.beans.traitement.ComportementCollecte;
-import rssagregator.dao.DAOComportementCollecte;
-import rssagregator.dao.DAOFactory;
-import rssagregator.utils.ServletTool;
+import rssaggregator.beans.form.ComportementCollecteForm;
+import rssaggregator.beans.traitement.AbstrRaffineur;
+import rssaggregator.beans.traitement.ComportementCollecte;
+import rssaggregator.dao.DAOComportementCollecte;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.utils.ServletTool;
 
 /**
  * Cette servlet permet de configurer des MediatorCollecte, elle configure directement les objets de traitement associé.
@@ -178,7 +178,7 @@ public class ComportementCollecteSrvlt extends HttpServlet {
      * @return 
      */
     private Set<Class<? extends  AbstrRaffineur>> chargerListeComportement() {
-        Reflections reflections = new Reflections("rssagregator.beans.traitement");
+        Reflections reflections = new Reflections("rssaggregator.beans.traitement");
         Set<Class<? extends AbstrRaffineur>> imp = reflections.getSubTypesOf(AbstrRaffineur.class);
 
         return imp;

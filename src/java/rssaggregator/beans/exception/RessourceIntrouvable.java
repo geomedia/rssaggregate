@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.exception;
+package rssaggregator.beans.exception;
 
 /**
  * Peut être levée lorsque par exemple on chercher une ressource JNDI et qu'elle n'est pas trouvée.

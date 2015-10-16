@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.form;
+package rssaggregator.beans.form;
 
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.servlet.http.HttpServletRequest;
-import rssagregator.beans.FluxType;
+import rssaggregator.beans.FluxType;
 
 /**
  * Objet formulaire permettant de valider les données saisies par l'utilisateur pour le beans <strong>FluxType</strong>

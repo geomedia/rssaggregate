@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans;
+package rssaggregator.beans;
 
 import java.io.Serializable;
 import java.security.MessageDigest;

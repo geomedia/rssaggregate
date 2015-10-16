@@ -2,16 +2,16 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.Semaphore;
-import rssagregator.beans.Bean;
-import rssagregator.utils.ExceptionTool;
-import rssagregator.utils.ThreadUtils;
+import rssaggregator.beans.Bean;
+import rssaggregator.utils.ExceptionTool;
+import rssaggregator.utils.ThreadUtils;
 //import sun.misc.Lock;
 
 /**

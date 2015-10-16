@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.dao;
+package rssaggregator.dao;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -12,10 +12,10 @@ import javax.persistence.Query;
 import javax.persistence.TransactionRequiredException;
 import javax.persistence.TypedQuery;
 import javax.persistence.criteria.Join;
-import rssagregator.beans.Flux;
-import rssagregator.beans.FluxType;
-import rssagregator.beans.Journal;
-import rssagregator.beans.traitement.ComportementCollecte;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.FluxType;
+import rssaggregator.beans.Journal;
+import rssaggregator.beans.traitement.ComportementCollecte;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.Root;
@@ -24,9 +24,9 @@ import org.eclipse.persistence.config.CacheUsage;
 import org.eclipse.persistence.config.QueryHints;
 import org.joda.time.DateTime;
 import org.joda.time.Duration;
-import rssagregator.beans.FluxPeriodeCaptation;
-import rssagregator.beans.incident.CollecteIncident;
-import rssagregator.utils.ExceptionTool;
+import rssaggregator.beans.FluxPeriodeCaptation;
+import rssaggregator.beans.incident.CollecteIncident;
+import rssaggregator.utils.ExceptionTool;
 
 /**
  *

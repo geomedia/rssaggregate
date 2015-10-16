@@ -4,4 +4,4 @@
  * Grace a un comparator, il est possible de trier une liste suivant des critère autres que ce qui est définit dans les
  * méthode equals propre au beans
  */
-package rssagregator.utils.comparator;
+package rssaggregator.utils.comparator;

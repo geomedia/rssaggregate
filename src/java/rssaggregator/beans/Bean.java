@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans;
+package rssaggregator.beans;
 
 /**
  *      Cette classe n'est plus utilisé. Elle était pensée comme une classe mère à tous les beans. Mais comme certain beans doivent implémenter Observable On a préféré s'en passer

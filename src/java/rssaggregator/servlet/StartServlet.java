@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.servlet;
+package rssaggregator.servlet;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,14 +14,14 @@ import java.util.logging.Logger;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
-import rssagregator.beans.Conf;
-import rssagregator.dao.DAOConf;
-import rssagregator.dao.DAOFactory;
-import rssagregator.services.ServiceCollecteur;
-import rssagregator.services.ServiceMailNotifier;
-import rssagregator.services.ServiceServer;
-import rssagregator.utils.PropertyLoader;
-import rssagregator.utils.ServiceXMLTool;
+import rssaggregator.beans.Conf;
+import rssaggregator.dao.DAOConf;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.services.ServiceCollecteur;
+import rssaggregator.services.ServiceMailNotifier;
+import rssaggregator.services.ServiceServer;
+import rssaggregator.utils.PropertyLoader;
+import rssaggregator.utils.ServiceXMLTool;
 
 /**
  * Servlet utilisé au démarrage de l'application pour lancer les service. Elle est aussi chargé de les clore à la

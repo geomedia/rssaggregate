@@ -1,4 +1,4 @@
-package rssagregator.beans;
+package rssaggregator.beans;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
@@ -24,9 +24,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 import org.apache.poi.util.Beta;
 import org.eclipse.persistence.annotations.Index;
-import rssagregator.beans.exception.IncompleteBeanExeption;
-import rssagregator.beans.traitement.AbstrRaffineur;
-import rssagregator.utils.ExceptionTool;
+import rssaggregator.beans.exception.IncompleteBeanExeption;
+import rssaggregator.beans.traitement.AbstrRaffineur;
+import rssaggregator.utils.ExceptionTool;
 
 /**
  * *

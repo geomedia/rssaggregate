@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.dao;
+package rssaggregator.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,9 +13,9 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Join;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
-import rssagregator.beans.Flux;
-import rssagregator.beans.incident.NotificationAjoutFlux;
-import rssagregator.services.tache.TacheAlerteMail;
+import rssaggregator.beans.Flux;
+import rssaggregator.beans.incident.NotificationAjoutFlux;
+import rssaggregator.services.tache.TacheAlerteMail;
 
 /**
  *

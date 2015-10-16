@@ -1,7 +1,7 @@
 <%@page import="java.util.Map"%>
 <%@page import="java.nio.charset.Charset"%>
 <%@page import="javax.el.ValueExpression"%>
-<%@page import="rssagregator.servlet.FluxSrvl"%>
+<%@page import="rssaggregator.servlet.FluxSrvl"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql"%>
 <%-- 

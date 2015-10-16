@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.beans.incident;
+package rssaggregator.beans.incident;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,10 +12,10 @@ import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import org.joda.time.DateTime;
-import rssagregator.beans.exception.IncompleteBeanExeption;
-import rssagregator.services.ServiceCollecteur;
-import rssagregator.utils.ExceptionTool;
-//import rssagregator.services.TacheVerifComportementFLux;
+import rssaggregator.beans.exception.IncompleteBeanExeption;
+import rssaggregator.services.ServiceCollecteur;
+import rssaggregator.utils.ExceptionTool;
+//import rssaggregator.services.TacheVerifComportementFLux;
 
 /**
  * <p>Ce n'est pas à proprement parlé un incident. Lorsque le collecteur repère une modification du comportement du flux

@@ -9,9 +9,9 @@ Cette JSP permet de mettre en forme les données afficher par la grid de présen
 <%@page import="org.joda.time.DateTime"%>
 <%@page import="org.joda.time.format.DateTimeFormatter"%>
 <%@page import="org.joda.time.format.DateTimeFormat"%>
-<%@page import="rssagregator.beans.incident.AbstrIncident"%>
+<%@page import="rssaggregator.beans.incident.AbstrIncident"%>
 <%@page import="java.util.List"%>
-<%@page import="rssagregator.beans.Journal"%>
+<%@page import="rssaggregator.beans.Journal"%>
 <%@page import="org.json.simple.JSONArray"%>
 <%@page import="org.json.simple.JSONObject"%>
 <%@ page language="java" contentType="application/json; charset=UTF-8" pageEncoding="UTF-8"%>

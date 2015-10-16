@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.utils;
+package rssaggregator.utils;
 
 import com.meterware.httpunit.PostMethodWebRequest;
 import com.meterware.httpunit.WebRequest;
@@ -20,8 +20,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import rssagregator.dao.AbstrDao;
-import rssagregator.servlet.FluxSrvl;
+import rssaggregator.dao.AbstrDao;
+import rssaggregator.servlet.FluxSrvl;
 
 
 /**

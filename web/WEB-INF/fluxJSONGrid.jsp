@@ -5,7 +5,7 @@
 --%>
 <%@page import="javax.xml.bind.JAXBContext"%>
 
-<%@page import="rssagregator.beans.Flux"%>
+<%@page import="rssaggregator.beans.Flux"%>
 <%@page import="java.util.Date"%>
 <%-- 
 
@@ -16,7 +16,7 @@ Cette JSP permet de mettre en forme les données afficher par la grid de présen
 --%>
 
 <%@page import="java.util.List"%>
-<%@page import="rssagregator.beans.Journal"%>
+<%@page import="rssaggregator.beans.Journal"%>
 <%@page import="org.json.simple.JSONArray"%>
 <%@page import="org.json.simple.JSONObject"%>
 <%@ page language="java" contentType="application/json; charset=UTF-8" pageEncoding="UTF-8"%>

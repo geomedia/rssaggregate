@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.servlet;
+package rssaggregator.servlet;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -19,17 +19,17 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import rssagregator.beans.Journal;
-import rssagregator.beans.exception.DonneeInterneCoherente;
-import rssagregator.beans.exception.IncompleteBeanExeption;
-import rssagregator.beans.form.AbstrForm;
-import rssagregator.beans.form.FORMFactory;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DaoJournal;
-import rssagregator.services.ServiceCollecteur;
-import rssagregator.services.tache.TacheDecouverteAjoutFlux;
-import rssagregator.utils.CodePays;
-import rssagregator.utils.ServletTool;
+import rssaggregator.beans.Journal;
+import rssaggregator.beans.exception.DonneeInterneCoherente;
+import rssaggregator.beans.exception.IncompleteBeanExeption;
+import rssaggregator.beans.form.AbstrForm;
+import rssaggregator.beans.form.FORMFactory;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DaoJournal;
+import rssaggregator.services.ServiceCollecteur;
+import rssaggregator.services.tache.TacheDecouverteAjoutFlux;
+import rssaggregator.utils.CodePays;
+import rssaggregator.utils.ServletTool;
 
 /**
  *

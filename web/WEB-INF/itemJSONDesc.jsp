@@ -5,7 +5,7 @@
 --%>
 
 <%@page import="org.json.simple.JSONObject"%>
-<%@page import="rssagregator.beans.Item"%>
+<%@page import="rssaggregator.beans.Item"%>
 <%@page import="java.util.List"%>
 <%@page import="org.json.simple.JSONArray"%>
 <%@ page language="java" contentType="application/json; charset=UTF-8" pageEncoding="UTF-8"%>

@@ -2,16 +2,16 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.dao;
+package rssaggregator.dao;
 
 import java.io.IOException;
 import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import rssagregator.beans.Conf;
-import rssagregator.beans.UserAccount;
-import rssagregator.utils.PropertyLoader;
-import rssagregator.utils.ServletTool;
+import rssaggregator.beans.Conf;
+import rssaggregator.beans.UserAccount;
+import rssaggregator.utils.PropertyLoader;
+import rssaggregator.utils.ServletTool;
 
 /**
  * La DAO permettant l'intéraction entre un bean de type {@link Conf}. Contrairement aux autres beans, la {@link Conf}

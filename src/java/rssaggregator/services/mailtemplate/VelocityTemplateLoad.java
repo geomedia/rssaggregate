@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.mailtemplate;
+package rssaggregator.services.mailtemplate;
 
 import java.io.StringWriter;
 import javax.naming.Context;

@@ -1,4 +1,4 @@
-package rssagregator.beans.incident;
+package rssaggregator.beans.incident;
 
 import java.io.Serializable;
 import javax.mail.search.DateTerm;
@@ -9,10 +9,10 @@ import javax.persistence.ManyToOne;
 import javax.xml.bind.annotation.XmlRootElement;
 import org.joda.time.DateTime;
 import org.joda.time.Duration;
-import rssagregator.beans.Flux;
-import rssagregator.services.ServiceCollecteur;
-import rssagregator.services.tache.TacheRecupCallable;
-import rssagregator.utils.ExceptionTool;
+import rssaggregator.beans.Flux;
+import rssaggregator.services.ServiceCollecteur;
+import rssaggregator.services.tache.TacheRecupCallable;
+import rssaggregator.utils.ExceptionTool;
 
 /**
  * <p>Cet incident est généré par le service {@link ServiceCollecteur} à partir des résultats de la tâche

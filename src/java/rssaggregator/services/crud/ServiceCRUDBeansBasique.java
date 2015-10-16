@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.crud;
+package rssaggregator.services.crud;
 
 import java.util.List;
 import javax.persistence.EntityManager;
-import rssagregator.dao.DAOFactory;
-import rssagregator.utils.ExceptionTool;
-import rssagregator.utils.TransactionTool;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.utils.ExceptionTool;
+import rssaggregator.utils.TransactionTool;
 
 /**
  * Défintit ajouter modifier supprimer pour tout beans n'ayant pas besoin d'être synchro. Peut être redéclaré pour des

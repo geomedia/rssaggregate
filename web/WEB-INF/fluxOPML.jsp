@@ -18,13 +18,13 @@
 <%@page import="java.net.URL"%>
 <%@page import="com.sun.syndication.feed.opml.Outline"%>
 <%@page import="com.sun.syndication.io.WireFeedOutput"%>
-<%@page import="rssagregator.beans.traitement.RomeParse"%>
+<%@page import="rssaggregator.beans.traitement.RomeParse"%>
 <%@page import="com.sun.syndication.io.impl.OPML20Generator"%>
 <%@page import="com.sun.syndication.io.impl.OPML20Parser"%>
 <%@page import="com.sun.syndication.io.impl.OPML10Generator"%>
 <%@page import="com.sun.syndication.feed.opml.Opml"%>
 <%@page import="java.util.List"%>
-<%@page import="rssagregator.beans.Flux"%>
+<%@page import="rssaggregator.beans.Flux"%>
 <%@page contentType="text/xml" pageEncoding="UTF-8"%>
 
 

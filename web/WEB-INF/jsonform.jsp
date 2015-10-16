@@ -4,9 +4,9 @@
     Author     : clem
 --%>
 
-<%@page import="rssagregator.dao.DAOFactory"%>
+<%@page import="rssaggregator.dao.DAOFactory"%>
 <%@page import="java.util.Map"%>
-<%@page import="rssagregator.beans.form.AbstrForm"%>
+<%@page import="rssaggregator.beans.form.AbstrForm"%>
 <%@page import="org.json.simple.JSONArray"%>
 <%@page import="org.json.simple.JSONObject"%>
 <%@ page language="java" contentType="application/json; charset=UTF-8" pageEncoding="UTF-8"%>

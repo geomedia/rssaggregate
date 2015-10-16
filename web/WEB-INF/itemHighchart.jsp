@@ -4,7 +4,7 @@
     Author     : clem
 --%>
 
-<%@page import="rssagregator.beans.POJOCompteItem"%>
+<%@page import="rssaggregator.beans.POJOCompteItem"%>
 <%@page import="org.joda.time.DateTime"%>
 <%@page import="org.joda.time.format.DateTimeFormatter"%>
 <%@page import="org.joda.time.format.DateTimeFormat"%>

@@ -1,4 +1,4 @@
-package rssagregator.beans;
+package rssaggregator.beans;
 
 import java.io.Serializable;
 import org.joda.time.DateTime;

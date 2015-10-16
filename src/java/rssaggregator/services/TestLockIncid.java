@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services;
+package rssaggregator.services;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -14,10 +14,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import rssagregator.beans.incident.AbstrIncident;
-import rssagregator.beans.incident.CollecteIncident;
-import rssagregator.dao.DAOFactory;
-import rssagregator.dao.DAOIncident;
+import rssaggregator.beans.incident.AbstrIncident;
+import rssaggregator.beans.incident.CollecteIncident;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.dao.DAOIncident;
 
 /**
  *

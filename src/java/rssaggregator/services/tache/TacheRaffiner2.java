@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package rssagregator.services.tache;
+package rssaggregator.services.tache;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -12,13 +12,13 @@ import java.util.concurrent.Semaphore;
 import javax.persistence.EntityManager;
 import javax.persistence.LockModeType;
 import org.reflections.Reflections;
-import rssagregator.beans.DoublonDe;
-import rssagregator.beans.Item;
-import rssagregator.beans.traitement.AbstrRaffineur;
-import rssagregator.beans.traitement.ComportementCollecte;
-//import rssagregator.beans.traitement.ItemComparator;
-import rssagregator.dao.DAOFactory;
-import rssagregator.utils.ExceptionTool;
+import rssaggregator.beans.DoublonDe;
+import rssaggregator.beans.Item;
+import rssaggregator.beans.traitement.AbstrRaffineur;
+import rssaggregator.beans.traitement.ComportementCollecte;
+//import rssaggregator.beans.traitement.ItemComparator;
+import rssaggregator.dao.DAOFactory;
+import rssaggregator.utils.ExceptionTool;
 
 /**
  *
@@ -39,7 +39,7 @@ public class TacheRaffiner2 extends TacheImpl<TacheRaffiner2> {
      * Initialisation de la liste static des rafineurs. Utilisation réflexive et instatiation des objets.
      */
     static {
-        Reflections reflections = new Reflections("rssagregator.beans.traitement");
+        Reflections reflections = new Reflections("rssaggregator.beans.traitement");
         Set<Class<? extends AbstrRaffineur>> imp = reflections.getSubTypesOf(AbstrRaffineur.class);
 
         EntityManager em = DAOFactory.getInstance().getEntityManager();
