@@ -43,8 +43,16 @@ public class TacheRemoveOldFile extends TacheImpl<Object> {
 
                 Duration dur = new Duration(dt, dtCurrent);
                 if (dur.getStandardDays()> nbHours) {
-                    logger.info("Suppression du répertoire " + file);
+
+                    
+                    List<File> csv = Arrays.asList(file.listFiles());
+                    for (Iterator<File> it2 = csv.iterator(); it2.hasNext();) {
+                         File file2 = it2.next();
+                         file2.delete();
+                         logger.info("Suppression du fichier " + file2);
+                    }
                     file.delete();
+                    logger.info("Suppression du répertoire " + file);
                 }
             }
         }
