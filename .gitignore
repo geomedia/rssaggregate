@@ -11,9 +11,7 @@ dist/
 build/
 
 core
-nbproject/*
-!nbproject/project.properties
-!nbproject/project.xml
+nbproject/private/
 
 *.so
 *.log
