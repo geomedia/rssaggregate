@@ -215,7 +215,7 @@
                                     <label for="pays">Pays : <span class="requis">*</span></label>
                                     <select name="pays" id="pays">
                                         <option></option>
-                                        <option value="XX">Aucun</option>
+                                        <option value="XXX">Aucun</option>
                                     <c:forEach items="${listCountry}" var="country">
                                         <option value="${country.key}" <c:if test="${country.key==bean.pays}"> selected="true"</c:if>>${country.value}</option>
                                     </c:forEach>

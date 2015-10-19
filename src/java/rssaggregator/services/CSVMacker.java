@@ -359,7 +359,7 @@ public class CSVMacker implements Callable<Object> {
     public String constructionNomFichier(Flux flux) {
 
         String nomFichier = "";
-        String pays = (flux.getJournalLie() != null && flux.getJournalLie().getPays() != null && !flux.getJournalLie().getPays().isEmpty()) ? flux.getJournalLie().getPays() : "XX";
+        String pays = (flux.getJournalLie() != null && flux.getJournalLie().getPays() != null && !flux.getJournalLie().getPays().isEmpty()) ? flux.getJournalLie().getPays() : "XXX";
         String ville = (flux.getJournalLie() != null && flux.getJournalLie().getCodeVille() != null && !flux.getJournalLie().getCodeVille().isEmpty()) ? flux.getJournalLie().getCodeVille() : "XX";
         String langue = (flux.getJournalLie() != null && flux.getJournalLie().getLangue() != null && !flux.getJournalLie().getLangue().isEmpty()) ? flux.getJournalLie().getLangue() : "XX";
         String codeJournal = (flux.getJournalLie() != null && flux.getJournalLie().getCodeJournal() != null && !flux.getJournalLie().getCodeJournal().isEmpty()) ? flux.getJournalLie().getCodeJournal() : "XX";
