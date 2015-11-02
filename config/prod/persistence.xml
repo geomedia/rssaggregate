@@ -41,8 +41,8 @@
       <property name="eclipselink.weaving" value="false"/>
       <property name="eclipselink.ddl-generation" value="create-tables"/>
       <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://postgresql.db.huma-num.fr/geomedia_dev"/>
-      <property name="javax.persistence.jdbc.user" value="user_geomedia_dev"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://postgresql.db.huma-num.fr/geomedia"/>
+      <property name="javax.persistence.jdbc.user" value="user_geomedia"/>
       <property name="javax.persistence.jdbc.password" value="type-the-password"/>
       <!--<property name="eclipselink.cache.shared.default" value="true"/>-->
       <!--<property name="eclipselink.cache.shared.Flux" value="true"/>-->
